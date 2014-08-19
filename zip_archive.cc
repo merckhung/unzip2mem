@@ -18,12 +18,13 @@
 
 #include <vector>
 
+#include <errno.h>
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "unix_file/fd_file.h"
+#include "fd_file.h"
 #include "UniquePtr.h"
 
 typedef uint64_t off64_t;
@@ -266,14 +267,15 @@ bool ZipEntry::ExtractToFile(File& file) {
     //MYPRINT(WARNING) << "Zip: failed to ftruncate " << file.GetPath() << " to length " << length;
     return false;
   }
-
+#if 0
   UniquePtr<MemMap> map(MemMap::MapFile(length, PROT_READ | PROT_WRITE, MAP_SHARED, file.Fd(), 0));
   if (map.get() == NULL) {
     //LOG(WARNING) << "Zip: failed to mmap space for " << file.GetPath();
     return false;
   }
+#endif
 
-  return ExtractToMemory(map->Begin(), map->Size());
+  return 0; //ExtractToMemory(map->Begin(), map->Size());
 }
 
 bool ZipEntry::ExtractToMemory(uint8_t* begin, size_t size) {
@@ -283,7 +285,7 @@ bool ZipEntry::ExtractToMemory(uint8_t* begin, size_t size) {
   }
   off64_t data_offset = GetDataOffset();
   if (data_offset == -1) {
-    LOG(WARNING) << "Zip: data_offset=" << data_offset;
+    //LOG(WARNING) << "Zip: data_offset=" << data_offset;
     return false;
   }
   if (lseek64(zip_archive_->fd_, data_offset, SEEK_SET) != data_offset) {
@@ -300,7 +302,7 @@ bool ZipEntry::ExtractToMemory(uint8_t* begin, size_t size) {
       return InflateToMemory(begin, size, zip_archive_->fd_,
                              GetUncompressedLength(), GetCompressedLength());
     default:
-      LOG(WARNING) << "Zip: unknown compression method " << std::hex << GetCompressionMethod();
+      //LOG(WARNING) << "Zip: unknown compression method " << std::hex << GetCompressionMethod();
       return false;
   }
 }
@@ -309,6 +311,7 @@ MemMap* ZipEntry::ExtractToMemMap(const char* entry_filename) {
   std::string name(entry_filename);
   name += " extracted in memory from ";
   name += entry_filename;
+#if 0
   UniquePtr<MemMap> map(MemMap::MapAnonymous(name.c_str(),
                                              NULL,
                                              GetUncompressedLength(),
@@ -323,8 +326,9 @@ MemMap* ZipEntry::ExtractToMemMap(const char* entry_filename) {
     LOG(ERROR) << "Zip: Failed to extract '" << entry_filename << "' to memory";
     return NULL;
   }
-
   return map.release();
+#endif
+  return NULL;
 }
 
 static void SetCloseOnExec(int fd) {
@@ -398,7 +402,7 @@ bool ZipArchive::MapCentralDirectory() {
    */
   off64_t file_length = lseek64(fd_, 0, SEEK_END);
   if (file_length < kEOCDLen) {
-    LOG(WARNING) << "Zip: length " << file_length << " is too small to be zip";
+    //LOG(WARNING) << "Zip: length " << file_length << " is too small to be zip";
     return false;
   }
 
@@ -466,7 +470,7 @@ bool ZipArchive::MapCentralDirectory() {
     }
   }
   if (i < 0) {
-    LOG(WARNING) << "Zip: EOCD not found, not a zip file";
+    //LOG(WARNING) << "Zip: EOCD not found, not a zip file";
     return false;
   }
 
@@ -486,32 +490,36 @@ bool ZipArchive::MapCentralDirectory() {
   uint16_t comment_size = Le16ToHost(eocd_ptr + kEOCDCommentSize);
 
   if ((uint64_t) dir_offset + (uint64_t) dir_size > (uint64_t) eocd_offset) {
+#if 0
     LOG(WARNING) << "Zip: bad offsets ("
                  << "dir=" << dir_offset << ", "
                  << "size=" << dir_size  << ", "
                  << "eocd=" << eocd_offset << ")";
+#endif
     return false;
   }
   if (num_entries == 0) {
-    LOG(WARNING) << "Zip: empty archive?";
+    //LOG(WARNING) << "Zip: empty archive?";
     return false;
   } else if (num_entries != total_num_entries || disk_number != 0 || disk_with_central_dir != 0) {
-    LOG(WARNING) << "spanned archives not supported";
+    //LOG(WARNING) << "spanned archives not supported";
     return false;
   }
 
   // Check to see if comment is a sane size
   if ((comment_size > (file_length - kEOCDLen))
       || (eocd_offset > (file_length - kEOCDLen) - comment_size)) {
-    LOG(WARNING) << "comment size runs off end of file";
+    //LOG(WARNING) << "comment size runs off end of file";
     return false;
   }
 
+#if 0
   // It all looks good.  Create a mapping for the CD.
   dir_map_.reset(MemMap::MapFile(dir_size, PROT_READ, MAP_SHARED, fd_, dir_offset));
   if (dir_map_.get() == NULL) {
     return false;
   }
+#endif
 
   num_entries_ = num_entries;
   dir_offset_ = dir_offset;
@@ -519,31 +527,31 @@ bool ZipArchive::MapCentralDirectory() {
 }
 
 bool ZipArchive::Parse() {
-  const byte* cd_ptr = dir_map_->Begin();
-  size_t cd_length = dir_map_->Size();
+  const byte* cd_ptr = NULL; // dir_map_->Begin();
+  size_t cd_length = 0;  // dir_map_->Size();
 
   // Walk through the central directory, adding entries to the hash
   // table and verifying values.
   const byte* ptr = cd_ptr;
   for (int i = 0; i < num_entries_; i++) {
     if (Le32ToHost(ptr) != kCDESignature) {
-      LOG(WARNING) << "Zip: missed a central dir sig (at " << i << ")";
+      //LOG(WARNING) << "Zip: missed a central dir sig (at " << i << ")";
       return false;
     }
     if (ptr + kCDELen > cd_ptr + cd_length) {
-      LOG(WARNING) << "Zip: ran off the end (at " << i << ")";
+      //LOG(WARNING) << "Zip: ran off the end (at " << i << ")";
       return false;
     }
 
     int64_t local_hdr_offset = Le32ToHost(ptr + kCDELocalOffset);
     if (local_hdr_offset >= dir_offset_) {
-      LOG(WARNING) << "Zip: bad LFH offset " << local_hdr_offset << " at entry " << i;
+      //LOG(WARNING) << "Zip: bad LFH offset " << local_hdr_offset << " at entry " << i;
       return false;
     }
 
     uint16_t gpbf = Le16ToHost(ptr + kCDEGPBFlags);
     if ((gpbf & kGPFUnsupportedMask) != 0) {
-      LOG(WARNING) << "Invalid General Purpose Bit Flag: " << gpbf;
+      //LOG(WARNING) << "Invalid General Purpose Bit Flag: " << gpbf;
       return false;
     }
 
@@ -556,16 +564,18 @@ bool ZipArchive::Parse() {
 
     // Check name for NULL characters
     if (memchr(name, 0, name_len) != NULL) {
-      LOG(WARNING) << "Filename contains NUL byte";
+      //LOG(WARNING) << "Filename contains NUL byte";
       return false;
     }
 
     dir_entries_.Put(StringPiece(name, name_len), ptr);
     ptr += kCDELen + name_len + extra_len + comment_len;
     if (ptr > cd_ptr + cd_length) {
+#if 0
       LOG(WARNING) << "Zip: bad CD advance "
                    << "(" << ptr << " vs " << (cd_ptr + cd_length) << ") "
                    << "at entry " << i;
+#endif
       return false;
     }
   }

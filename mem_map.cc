@@ -22,7 +22,7 @@
 #include "ScopedFd.h"
 #include "utils.h"
 
-#define USE_ASHMEM 1
+#define USE_ASHMEM 0
 
 #ifdef USE_ASHMEM
 #include <cutils/ashmem.h>

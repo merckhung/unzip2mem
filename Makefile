@@ -30,19 +30,19 @@ CPPLINT	 :=	tools/cpplint.py
 
 # Common flags
 CPPFLAGS	:=	-Iinclude -Wall -g3
-CPPFLAGS	+=	-std=c++11
+#CPPFLAGS	+=	-std=c++11
 ifeq ($(OS), Darwin)
 CPPFLAGS	+=	-I/usr/include/c++/4.2.1
 endif
 
-LDFLAGS		:=
+LDFLAGS		:=	-lz
 ifeq ($(OS), Darwin)
 LDFLAGS		+=	-stdlib=libstdc++ -lc++
 endif
 
 # Modules
 MODULES	:= unzip2mem
-SRCS		:= main.cc
+SRCS		:= fd_file.cc zip_archive.cc os_linux.cc stringpiece.cc main.cc
 
 # Rules
 all: $(MODULES)

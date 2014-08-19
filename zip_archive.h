@@ -22,12 +22,13 @@
 
 //#include "logging.h"
 #include "stringpiece.h"
-#include "unix_file/random_access_file.h"
+#include "random_access_file.h"
 #include "globals.h"
 #include "mem_map.h"
 #include "os.h"
 #include "safe_map.h"
 #include "UniquePtr.h"
+#include "macros.h"
 
 typedef uint64_t off64_t;
 
@@ -130,7 +131,7 @@ class ZipArchive {
   int fd_;
   uint16_t num_entries_;
   off_t dir_offset_;
-  UniquePtr<MemMap> dir_map_;
+  //UniquePtr<MemMap> dir_map_;
   typedef SafeMap<StringPiece, const byte*> DirEntries;
   DirEntries dir_entries_;
 

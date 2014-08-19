@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "logging.h"
+//#include "logging.h"
 #include "fd_file.h"
 #include <errno.h>
 #include <sys/stat.h>
@@ -30,7 +30,7 @@ FdFile::FdFile(int fd) : fd_(fd), auto_close_(true) {
 }
 
 FdFile::FdFile(int fd, const std::string& path) : fd_(fd), file_path_(path), auto_close_(true) {
-  CHECK_NE(0U, path.size());
+  //CHECK_NE(0U, path.size());
 }
 
 FdFile::~FdFile() {
@@ -48,7 +48,7 @@ bool FdFile::Open(const std::string& path, int flags) {
 }
 
 bool FdFile::Open(const std::string& path, int flags, mode_t mode) {
-  CHECK_EQ(fd_, -1) << path;
+  //CHECK_EQ(fd_, -1) << path;
   fd_ = TEMP_FAILURE_RETRY(open(path.c_str(), flags, mode));
   if (fd_ == -1) {
     return false;

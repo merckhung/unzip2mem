@@ -20,7 +20,7 @@
 #include <map>
 #include <memory>
 
-#include "logging.h"
+//#include "logging.h"
 
 namespace art {
 
@@ -69,8 +69,8 @@ class SafeMap {
 
   // Used to insert a new mapping.
   void Put(const K& k, const V& v) {
-    std::pair<iterator, bool> result = map_.insert(std::make_pair(k, v));
-    DCHECK(result.second);  // Check we didn't accidentally overwrite an existing value.
+    //std::pair<iterator, bool> result = map_.insert(std::make_pair(k, v));
+    //DCHECK(result.second);  // Check we didn't accidentally overwrite an existing value.
   }
 
   // Used to insert a new mapping or overwrite an existing mapping. Note that if the value type

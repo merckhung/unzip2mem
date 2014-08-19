@@ -21,8 +21,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include "logging.h"
-#include "unix_file/fd_file.h"
+//#include "logging.h"
+#include "fd_file.h"
 #include "UniquePtr.h"
 
 namespace art {
@@ -40,7 +40,7 @@ File* OS::CreateEmptyFile(const char* name) {
 }
 
 File* OS::OpenFileWithFlags(const char* name, int flags) {
-  CHECK(name != NULL);
+  //CHECK(name != NULL);
   UniquePtr<File> file(new File);
   if (!file->Open(name, flags, 0666)) {
     return NULL;
