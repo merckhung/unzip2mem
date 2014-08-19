@@ -20,14 +20,16 @@
 #include <stdint.h>
 #include <zlib.h>
 
-#include "base/logging.h"
-#include "base/stringpiece.h"
-#include "base/unix_file/random_access_file.h"
+//#include "logging.h"
+#include "stringpiece.h"
+#include "unix_file/random_access_file.h"
 #include "globals.h"
 #include "mem_map.h"
 #include "os.h"
 #include "safe_map.h"
 #include "UniquePtr.h"
+
+typedef uint64_t off64_t;
 
 namespace art {
 
@@ -127,7 +129,7 @@ class ZipArchive {
 
   int fd_;
   uint16_t num_entries_;
-  off64_t dir_offset_;
+  off_t dir_offset_;
   UniquePtr<MemMap> dir_map_;
   typedef SafeMap<StringPiece, const byte*> DirEntries;
   DirEntries dir_entries_;

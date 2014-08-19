@@ -23,8 +23,12 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "base/unix_file/fd_file.h"
+#include "unix_file/fd_file.h"
 #include "UniquePtr.h"
+
+typedef uint64_t off64_t;
+#define lseek64 lseek
+#define MYPRINT(x)
 
 namespace art {
 
@@ -72,30 +76,30 @@ off64_t ZipEntry::GetDataOffset() {
   off64_t dir_offset = zip_archive_->dir_offset_;
   int64_t lfh_offset = Le32ToHost(ptr_ + ZipArchive::kCDELocalOffset);
   if (lfh_offset + ZipArchive::kLFHLen >= dir_offset) {
-    LOG(WARNING) << "Zip: bad LFH offset in zip";
+    //LOG(WARNING) << "Zip: bad LFH offset in zip";
     return -1;
   }
 
   if (lseek64(zip_archive_->fd_, lfh_offset, SEEK_SET) != lfh_offset) {
-    PLOG(WARNING) << "Zip: failed seeking to LFH at offset " << lfh_offset;
+    //MYPRINT(WARNING) << "Zip: failed seeking to LFH at offset " << lfh_offset;
     return -1;
   }
 
   uint8_t lfh_buf[ZipArchive::kLFHLen];
   ssize_t actual = TEMP_FAILURE_RETRY(read(zip_archive_->fd_, lfh_buf, sizeof(lfh_buf)));
   if (actual != sizeof(lfh_buf)) {
-    LOG(WARNING) << "Zip: failed reading LFH from offset " << lfh_offset;
+    //LOG(WARNING) << "Zip: failed reading LFH from offset " << lfh_offset;
     return -1;
   }
 
   if (Le32ToHost(lfh_buf) != ZipArchive::kLFHSignature) {
-    LOG(WARNING) << "Zip: didn't find signature at start of LFH, offset " << lfh_offset;
+    //LOG(WARNING) << "Zip: didn't find signature at start of LFH, offset " << lfh_offset;
     return -1;
   }
 
   uint32_t gpbf = Le16ToHost(lfh_buf + ZipArchive::kLFHGPBFlags);
   if ((gpbf & ZipArchive::kGPFUnsupportedMask) != 0) {
-    LOG(WARNING) << "Invalid General Purpose Bit Flag: " << gpbf;
+    //LOG(WARNING) << "Invalid General Purpose Bit Flag: " << gpbf;
     return -1;
   }
 
@@ -103,24 +107,28 @@ off64_t ZipEntry::GetDataOffset() {
                        + Le16ToHost(lfh_buf + ZipArchive::kLFHNameLen)
                        + Le16ToHost(lfh_buf + ZipArchive::kLFHExtraLen));
   if (data_offset >= dir_offset) {
-    LOG(WARNING) << "Zip: bad data offset " << data_offset << " in zip";
+    //LOG(WARNING) << "Zip: bad data offset " << data_offset << " in zip";
     return -1;
   }
 
   // check lengths
 
   if (static_cast<off64_t>(data_offset + GetCompressedLength()) > dir_offset) {
+#if 0
     LOG(WARNING) << "Zip: bad compressed length in zip "
                  << "(" << data_offset << " + " << GetCompressedLength()
                  << " > " << dir_offset << ")";
+#endif
     return -1;
   }
 
   if (GetCompressionMethod() == kCompressStored
       && static_cast<off64_t>(data_offset + GetUncompressedLength()) > dir_offset) {
+#if 0
     LOG(WARNING) << "Zip: bad uncompressed length in zip "
                  << "(" << data_offset << " + " << GetUncompressedLength()
                  << " > " << dir_offset << ")";
+#endif
     return -1;
   }
 
@@ -134,14 +142,14 @@ static bool CopyFdToMemory(uint8_t* begin, size_t size, int in, size_t count) {
     size_t bytes_to_read = (count > kBufSize) ? kBufSize : count;
     ssize_t actual = TEMP_FAILURE_RETRY(read(in, &buf[0], bytes_to_read));
     if (actual != static_cast<ssize_t>(bytes_to_read)) {
-      PLOG(WARNING) << "Zip: short read";
+      //MYPRINT(WARNING) << "Zip: short read";
       return false;
     }
     memcpy(dst, &buf[0], bytes_to_read);
     dst += bytes_to_read;
     count -= bytes_to_read;
   }
-  DCHECK_EQ(dst, begin + size);
+  //DCHECK_EQ(dst, begin + size);
   return true;
 }
 
@@ -177,7 +185,7 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
   UniquePtr<uint8_t[]> read_buf(new uint8_t[kBufSize]);
   UniquePtr<uint8_t[]> write_buf(new uint8_t[kBufSize]);
   if (read_buf.get() == NULL || write_buf.get() == NULL) {
-    LOG(WARNING) << "Zip: failed to allocate buffer to inflate";
+    //LOG(WARNING) << "Zip: failed to allocate buffer to inflate";
     return false;
   }
 
@@ -188,9 +196,9 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
   int zerr = inflateInit2(&zstream->Get(), -MAX_WBITS);
   if (zerr != Z_OK) {
     if (zerr == Z_VERSION_ERROR) {
-      LOG(ERROR) << "Installed zlib is not compatible with linked version (" << ZLIB_VERSION << ")";
+      //LOG(ERROR) << "Installed zlib is not compatible with linked version (" << ZLIB_VERSION << ")";
     } else {
-      LOG(WARNING) << "Call to inflateInit2 failed (zerr=" << zerr << ")";
+      //LOG(WARNING) << "Call to inflateInit2 failed (zerr=" << zerr << ")";
     }
     return false;
   }
@@ -203,7 +211,7 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
 
         ssize_t actual = TEMP_FAILURE_RETRY(read(in, read_buf.get(), bytes_to_read));
         if (actual != static_cast<ssize_t>(bytes_to_read)) {
-          LOG(WARNING) << "Zip: inflate read failed (" << actual << " vs " << bytes_to_read << ")";
+          //LOG(WARNING) << "Zip: inflate read failed (" << actual << " vs " << bytes_to_read << ")";
           return false;
         }
         remaining -= bytes_to_read;
@@ -214,12 +222,14 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
     // uncompress the data
     zerr = inflate(&zstream->Get(), Z_NO_FLUSH);
     if (zerr != Z_OK && zerr != Z_STREAM_END) {
+#if 0
       LOG(WARNING) << "Zip: inflate zerr=" << zerr
                    << " (next_in=" << zstream->Get().next_in
                    << " avail_in=" << zstream->Get().avail_in
                    << " next_out=" << zstream->Get().next_out
                    << " avail_out=" << zstream->Get().avail_out
                    << ")";
+#endif
       return false;
     }
 
@@ -234,16 +244,18 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
     }
   } while (zerr == Z_OK);
 
-  DCHECK_EQ(zerr, Z_STREAM_END);  // other errors should've been caught
+  //DCHECK_EQ(zerr, Z_STREAM_END);  // other errors should've been caught
 
   // paranoia
   if (zstream->Get().total_out != uncompressed_length) {
+#if 0
     LOG(WARNING) << "Zip: size mismatch on inflated file ("
                  << zstream->Get().total_out << " vs " << uncompressed_length << ")";
+#endif
     return false;
   }
 
-  DCHECK_EQ(dst, begin + size);
+  //DCHECK_EQ(dst, begin + size);
   return true;
 }
 
@@ -251,13 +263,13 @@ bool ZipEntry::ExtractToFile(File& file) {
   uint32_t length = GetUncompressedLength();
   int result = TEMP_FAILURE_RETRY(ftruncate(file.Fd(), length));
   if (result == -1) {
-    PLOG(WARNING) << "Zip: failed to ftruncate " << file.GetPath() << " to length " << length;
+    //MYPRINT(WARNING) << "Zip: failed to ftruncate " << file.GetPath() << " to length " << length;
     return false;
   }
 
   UniquePtr<MemMap> map(MemMap::MapFile(length, PROT_READ | PROT_WRITE, MAP_SHARED, file.Fd(), 0));
   if (map.get() == NULL) {
-    LOG(WARNING) << "Zip: failed to mmap space for " << file.GetPath();
+    //LOG(WARNING) << "Zip: failed to mmap space for " << file.GetPath();
     return false;
   }
 
@@ -275,7 +287,7 @@ bool ZipEntry::ExtractToMemory(uint8_t* begin, size_t size) {
     return false;
   }
   if (lseek64(zip_archive_->fd_, data_offset, SEEK_SET) != data_offset) {
-    PLOG(WARNING) << "Zip: lseek to data at " << data_offset << " failed";
+    //MYPRINT(WARNING) << "Zip: lseek to data at " << data_offset << " failed";
     return false;
   }
 
@@ -319,21 +331,21 @@ static void SetCloseOnExec(int fd) {
   // This dance is more portable than Linux's O_CLOEXEC open(2) flag.
   int flags = fcntl(fd, F_GETFD);
   if (flags == -1) {
-    PLOG(WARNING) << "fcntl(" << fd << ", F_GETFD) failed";
+    //MYPRINT(WARNING) << "fcntl(" << fd << ", F_GETFD) failed";
     return;
   }
   int rc = fcntl(fd, F_SETFD, flags | FD_CLOEXEC);
   if (rc == -1) {
-    PLOG(WARNING) << "fcntl(" << fd << ", F_SETFD, " << flags << ") failed";
+    //MYPRINT(WARNING) << "fcntl(" << fd << ", F_SETFD, " << flags << ") failed";
     return;
   }
 }
 
 ZipArchive* ZipArchive::Open(const std::string& filename) {
-  DCHECK(!filename.empty());
+  //DCHECK(!filename.empty());
   int fd = open(filename.c_str(), O_RDONLY, 0);
   if (fd == -1) {
-    PLOG(WARNING) << "Unable to open '" << filename << "'";
+    //MYPRINT(WARNING) << "Unable to open '" << filename << "'";
     return NULL;
   }
   return OpenFromFd(fd);
@@ -357,7 +369,7 @@ ZipArchive* ZipArchive::OpenFromFd(int fd) {
 }
 
 ZipEntry* ZipArchive::Find(const char* name) const {
-  DCHECK(name != NULL);
+  //DCHECK(name != NULL);
   DirEntries::const_iterator it = dir_entries_.find(name);
   if (it == dir_entries_.end()) {
     return NULL;
@@ -404,19 +416,19 @@ bool ZipArchive::MapCentralDirectory() {
    * Make sure this is a Zip archive.
    */
   if (lseek64(fd_, 0, SEEK_SET) != 0) {
-    PLOG(WARNING) << "seek to start failed: ";
+    //MYPRINT(WARNING) << "seek to start failed: ";
     return false;
   }
 
   ssize_t actual = TEMP_FAILURE_RETRY(read(fd_, scan_buf.get(), sizeof(int32_t)));
   if (actual != static_cast<ssize_t>(sizeof(int32_t))) {
-    PLOG(INFO) << "couldn't read first signature from zip archive: ";
+    //MYPRINT(INFO) << "couldn't read first signature from zip archive: ";
     return false;
   }
 
   unsigned int header = Le32ToHost(scan_buf.get());
   if (header != kLFHSignature) {
-    LOG(VERBOSE) << "Not a Zip archive (found " << std::hex << header << ")";
+    //LOG(VERBOSE) << "Not a Zip archive (found " << std::hex << header << ")";
     return false;
   }
 
@@ -433,12 +445,12 @@ bool ZipArchive::MapCentralDirectory() {
   off64_t search_start = file_length - read_amount;
 
   if (lseek64(fd_, search_start, SEEK_SET) != search_start) {
-    PLOG(WARNING) << "Zip: seek " << search_start << " failed";
+    //MYPRINT(WARNING) << "Zip: seek " << search_start << " failed";
     return false;
   }
   actual = TEMP_FAILURE_RETRY(read(fd_, scan_buf.get(), read_amount));
   if (actual != static_cast<ssize_t>(read_amount)) {
-    PLOG(WARNING) << "Zip: read " << actual << ", expected " << read_amount << ". failed";
+    //MYPRINT(WARNING) << "Zip: read " << actual << ", expected " << read_amount << ". failed";
     return false;
   }
 
@@ -461,7 +473,7 @@ bool ZipArchive::MapCentralDirectory() {
   off64_t eocd_offset = search_start + i;
   const byte* eocd_ptr = scan_buf.get() + i;
 
-  DCHECK(eocd_offset < file_length);
+  //DCHECK(eocd_offset < file_length);
 
   // Grab the CD offset and size, and the number of entries in the
   // archive.  Verify that they look reasonable.

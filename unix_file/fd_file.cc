@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#include "base/logging.h"
-#include "base/unix_file/fd_file.h"
+#include "logging.h"
+#include "fd_file.h"
 #include <errno.h>
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -69,17 +69,17 @@ int FdFile::Close() {
 }
 
 int FdFile::Flush() {
-  int rc = TEMP_FAILURE_RETRY(fdatasync(fd_));
+  int rc = TEMP_FAILURE_RETRY(fsync(fd_));
   return (rc == -1) ? -errno : rc;
 }
 
 int64_t FdFile::Read(char* buf, int64_t byte_count, int64_t offset) const {
-  int rc = TEMP_FAILURE_RETRY(pread64(fd_, buf, byte_count, offset));
+  int rc = TEMP_FAILURE_RETRY(pread(fd_, buf, byte_count, offset));
   return (rc == -1) ? -errno : rc;
 }
 
 int FdFile::SetLength(int64_t new_length) {
-  int rc = TEMP_FAILURE_RETRY(ftruncate64(fd_, new_length));
+  int rc = TEMP_FAILURE_RETRY(ftruncate(fd_, new_length));
   return (rc == -1) ? -errno : rc;
 }
 
@@ -90,7 +90,7 @@ int64_t FdFile::GetLength() const {
 }
 
 int64_t FdFile::Write(const char* buf, int64_t byte_count, int64_t offset) {
-  int rc = TEMP_FAILURE_RETRY(pwrite64(fd_, buf, byte_count, offset));
+  int rc = TEMP_FAILURE_RETRY(pwrite(fd_, buf, byte_count, offset));
   return (rc == -1) ? -errno : rc;
 }
 

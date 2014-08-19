@@ -19,8 +19,8 @@
 
 #include <fcntl.h>
 #include <string>
-#include "base/unix_file/random_access_file.h"
-#include "base/macros.h"
+#include "random_access_file.h"
+#include "../macros.h"
 
 namespace unix_file {
 

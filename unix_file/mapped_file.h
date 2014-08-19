@@ -19,7 +19,7 @@
 
 #include <fcntl.h>
 #include <string>
-#include "base/unix_file/fd_file.h"
+#include "fd_file.h"
 
 namespace unix_file {
 
@@ -32,8 +32,8 @@ class MappedFile : public FdFile {
  public:
   // File modes used in Open().
   enum FileMode {
-    kReadOnlyMode = O_RDONLY | O_LARGEFILE,
-    kReadWriteMode = O_CREAT | O_RDWR | O_LARGEFILE,
+    kReadOnlyMode = O_RDONLY,
+    kReadWriteMode = O_CREAT | O_RDWR,
   };
 
   MappedFile() : FdFile(), file_size_(-1), mapped_file_(NULL) {

@@ -21,8 +21,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include "base/logging.h"
-#include "base/unix_file/fd_file.h"
+#include "logging.h"
+#include "unix_file/fd_file.h"
 #include "UniquePtr.h"
 
 namespace art {

@@ -21,9 +21,9 @@
 
 #include <string>
 
-#include "base/macros.h"
-#include "base/stringpiece.h"
-#include "base/unix_file/random_access_file.h"
+#include "../macros.h"
+#include "../stringpiece.h"
+#include "random_access_file.h"
 
 namespace unix_file {
 

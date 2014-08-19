@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009 The Android Open Source Project
+ * Copyright (C) 2011 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,29 +14,17 @@
  * limitations under the License.
  */
 
-#include "base/unix_file/string_file.h"
-#include "base/unix_file/random_access_file_test.h"
-#include "gtest/gtest.h"
+#ifndef ART_RUNTIME_LOG_SEVERITY_H_
+#define ART_RUNTIME_LOG_SEVERITY_H_
 
-namespace unix_file {
+typedef int LogSeverity;
 
-class StringFileTest : public RandomAccessFileTest {
- protected:
-  virtual RandomAccessFile* MakeTestFile() {
-    return new StringFile;
-  }
-};
+const int VERBOSE = 0;
+const int DEBUG1 = 1;
+const int INFO = 2;
+const int WARNING = 3;
+const int ERROR = 4;
+const int FATAL = 5;
+const int INTERNAL_FATAL = 6;  // For Runtime::Abort.
 
-TEST_F(StringFileTest, Read) {
-  TestRead();
-}
-
-TEST_F(StringFileTest, SetLength) {
-  TestSetLength();
-}
-
-TEST_F(StringFileTest, Write) {
-  TestWrite();
-}
-
-}  // namespace unix_file
+#endif  // ART_RUNTIME_LOG_SEVERITY_H_

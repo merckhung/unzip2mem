@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#include "base/logging.h"
-#include "base/unix_file/mapped_file.h"
+#include "logging.h"
+#include "mapped_file.h"
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
@@ -61,7 +61,7 @@ bool MappedFile::MapReadOnly() {
 bool MappedFile::MapReadWrite(int64_t file_size) {
   CHECK(IsOpened());
   CHECK(!IsMapped());
-  int result = TEMP_FAILURE_RETRY(ftruncate64(Fd(), file_size));
+  int result = TEMP_FAILURE_RETRY(ftruncate(Fd(), file_size));
   if (result == -1) {
     PLOG(ERROR) << "Failed to truncate file '" << GetPath()
                 << "' to size " << file_size;

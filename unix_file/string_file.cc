@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-#include "base/unix_file/string_file.h"
+#include "string_file.h"
 #include <errno.h>
 #include <algorithm>
-#include "base/logging.h"
+#include "../logging.h"
 
 namespace unix_file {
 
