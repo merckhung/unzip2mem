@@ -19,6 +19,9 @@
 
 #include <stdint.h>
 #include <sys/types.h>
+#ifdef __APPLE__
+#include <string.h>
+#endif
 
 #ifdef __cplusplus
 extern "C" {
@@ -30,9 +33,11 @@ void android_memset16(uint16_t* dst, uint16_t value, size_t size);
 /* size is given in bytes and must be multiple of 4 */
 void android_memset32(uint32_t* dst, uint32_t value, size_t size);
 
+#ifndef __APPLE__
 #if !HAVE_STRLCPY
 /* Declaration of strlcpy() for platforms that don't already have it. */
 size_t strlcpy(char *dst, const char *src, size_t size);
+#endif
 #endif
 
 #ifdef __cplusplus
