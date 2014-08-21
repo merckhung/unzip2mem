@@ -1,11 +1,17 @@
-CFLAGS	:= -m32 -DFAKE_LOG_DEVICE=1 -I../include
-LDFLAGS	:= -lpthread -c
+SRCS		:= logd_write.c fake_log_device.c
+OBJS		:= $(subst .c,.o,$(SRCS))
+TGT			:= liblog.a
+CFLAGS	:= -c -m32 -DFAKE_LOG_DEVICE=1 -I../include
+LDFLAGS	:=
 
-all:
-	gcc $(CFLAGS) $(LDFLAGS) -o liblog.o logd_write.c
-	gcc $(CFLAGS) $(LDFLAGS) -o fake_log_device.o fake_log_device.c
-	ar rcs liblog.a liblog.o fake_log_device.o
+all: $(TGT)
+
+$(TGT): $(OBJS)
+	@ar rcs $@ $(OBJS)
+
+%.o: %.c
+	@gcc $(CFLAGS) $(LDFLAGS) -o $@ $<
 
 clean:
-	rm -f *.a *.o
+	@rm -f *.a *.o
 

@@ -51,7 +51,7 @@ SRCS		+= stringprintf.cc mem_map.cc
 all: gcc-demangle liblog libcutils libcorkscrew $(MODULES)
 
 unzip2mem:
-	$(CPP) -o $@ $(CPPFLAGS) $(SRCS) $(LDFLAGS)
+	@$(CPP) -o $@ $(CPPFLAGS) $(SRCS) $(LDFLAGS)
 
 gcc-demangle:
 	@make -C $@

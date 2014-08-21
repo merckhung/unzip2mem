@@ -28,15 +28,18 @@ commonHostSources := \
 
 SRCS		:= $(commonSources) $(commonHostSources) dlmalloc_stubs.c
 OBJS		:= $(subst .c,.o,$(SRCS))
-CFLAGS	:= -m32 -I../include -DANDROID_SMP=0 -DHAVE_PTHREADS
-LDFLAGS	:= -lpthread -c -L../liblog -llog
+TGT			:= libcutils.a
+CFLAGS	:= -c -m32 -I../include -DANDROID_SMP=0 -DHAVE_PTHREADS
+LDFLAGS	:=
 
-all: $(OBJS)
-	ar rcs libcutils.a $(OBJS)
+all: $(TGT)
+
+$(TGT): $(OBJS)
+	@ar rcs $@ $(OBJS)
 
 %.o: %.c
-	gcc $(CFLAGS) $(LDFLAGS) -o $@ $<
+	@gcc $(CFLAGS) $(LDFLAGS) -o $@ $<
 
 clean:
-	rm -f *.a *.o
+	@rm -f *.a *.o
 

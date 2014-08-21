@@ -12,16 +12,20 @@ x86_src_files := \
 
 SRCS		:= $(generic_src_files) $(x86_src_files)
 OBJS		:= $(subst .c,.o,$(SRCS))
+TGT			:= libcorkscrew.a
 CFLAGS	:= -m32 -c -Wall -DCORKSCREW_HAVE_ARCH -std=gnu99
 CFLAGS	+= -I../include -c
-LDFLAGS := -L../gcc-demangle -L../liblog -Llibcutils
-LDFLAGS	+= -lgccdemangle -llog -lcutils
+LDFLAGS :=
+LDFLAGS	+=
 
-all: $(OBJS)
-	ar rcs libcorkscrew.a $(OBJS)
+all: $(TGT)
+
+$(TGT): $(OBJS)
+	@ar rcs $@ $(OBJS)
 
 %.o: %.c
-	gcc $(CFLAGS) $(LDFLAGS) -o $@ $<
+	@gcc $(CFLAGS) $(LDFLAGS) -o $@ $<
 
 clean:
-	rm -f *.o *.a
+	@rm -f *.o *.a
+
