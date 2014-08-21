@@ -1,0 +1,828 @@
+Tlibcorkscrew
+v6
+r1
+cCheck dependencies
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053665862000000000000044C
+t1399216226
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005366586200000000000001DE
+t1399216226
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005366586A0000000000000ADC
+t1399216234
+s2780
+
+N/Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a
+t2
+s0
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o
+t1408635264
+s3036
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o
+t1408635264
+s43184
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o
+t1408635264
+s13004
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o
+t1408635264
+s2208
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/libcorkscrew.LinkFileList
+c0000000053F6117F00000000000003AA
+t1408635263
+s938
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o
+t1408635264
+s15128
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o
+t1408635264
+s6328
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o
+t1408635264
+s8820
+
+N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o
+t1408635264
+s4176
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c
+c0000000053F600EA000000000000833F
+t1408631018
+s33599
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c
+c0000000053F600EA00000000000009DD
+t1408631018
+s2525
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c
+c0000000053F600EA00000000000004FB
+t1408631018
+s1275
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c
+c0000000053F600EA0000000000002FAF
+t1408631018
+s12207
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c
+c0000000053F600EA0000000000000491
+t1408631018
+s1169
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c
+c0000000053F600EA00000000000020D2
+t1408631018
+s8402
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c
+c0000000053F600EA00000000000012A8
+t1408631018
+s4776
+
+N/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c
+c0000000053F600EA0000000000001AEF
+t1408631018
+s6895
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies68cfd5ff48a6b941^b398dcff48a6b941^---0#1#1#--18"Check dependencies36"FE14B8AE-F9AF-4D01-BB04-D4AB32600BE0-
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.864141
+e430328064.027457
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/backtrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c202"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o [1mlibcorkscrew/backtrace-helper.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler2e55ddff48a6b941^c425070049a6b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c0000000000000000^2688"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o [1mlibcorkscrew/backtrace-helper.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o36"6677820E-746D-4F95-8852-8EB591F46797-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.863746
+e430328064.161413
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/backtrace.h
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.h
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/dwarf.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+o[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:292:52: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("find_fde: no map info for pc:0x%x", pc);
+o[0;1;32m                                              ~~   ^~
+o[0m[0;32m                                              %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:297:74: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("find_fde: no eh_frame_hdr for map: start=0x%x, end=0x%x", mi->start, mi->end);
+o[0;1;32m                                                          ~~             ^~~~~~~~~
+o[0m[0;32m                                                          %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:297:85: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("find_fde: no eh_frame_hdr for map: start=0x%x, end=0x%x", mi->start, mi->end);
+o[0;1;32m                                                                    ~~              ^~~~~~~
+o[0m[0;32m                                                                    %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:329:43: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o    if (!read_dwarf(memory, eh_frame_hdr, &eh_hdr_info.eh_frame_ptr, eh_hdr_info.eh_frame_ptr_...
+o[0;1;32m                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing
+o      argument to parameter 'out_value' here[0m
+ostatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...
+o[0;1;32m                                                                        ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:341:47: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o        if (!read_dwarf(memory, eh_frame_hdr, &start, eh_hdr_info.fde_table_enc, &entry)) return 0;
+o[0;1;32m                                              ^~~~~~
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing
+o      argument to parameter 'out_value' here[0m
+ostatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...
+o[0;1;32m                                                                        ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:350:59: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("find_fde: pc %x is out of FDE bounds: %x", pc, start);
+o[0;1;32m                            ~~                            ^~
+o[0m[0;32m                            %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:350:63: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("find_fde: pc %x is out of FDE bounds: %x", pc, start);
+o[0;1;32m                                                     ~~       ^~~~~
+o[0m[0;32m                                                     %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:354:43: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o    if (!read_dwarf(memory, eh_frame_hdr, &start, eh_hdr_info.fde_table_enc, &c)) return 0;
+o[0;1;32m                                          ^~~~~~
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing
+o      argument to parameter 'out_value' here[0m
+ostatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...
+o[0;1;32m                                                                        ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:355:43: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o    if (!read_dwarf(memory, eh_frame_hdr, &fde, eh_hdr_info.fde_table_enc, &c)) return 0;
+o[0;1;32m                                          ^~~~
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing
+o      argument to parameter 'out_value' here[0m
+ostatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...
+o[0;1;32m                                                                        ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:54: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);
+o[0;1;32m                ~~                                   ^~
+o[0m[0;32m                %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:64: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);
+o[0;1;32m                                      ~~                       ^~~~~
+o[0m[0;32m                                      %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:71: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);
+o[0;1;32m                                                ~~                    ^~~
+o[0m[0;32m                                                %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:383:57: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o            ALOGV("DW_CFA_advance_loc: %d to 0x%x", op, dstate->loc);
+o[0;1;32m                                               ~~       ^~~~~~~~~~~
+o[0m[0;32m                                               %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:405:80: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o            ALOGV("DW_CFA_set_loc: %d to 0x%x", offset * cie_info->code_align, dstate->loc);
+o[0;1;32m                                           ~~                                  ^~~~~~~~~~~
+o[0m[0;32m                                           %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:410:94: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o  ...ALOGV("DW_CFA_advance_loc1: %d to 0x%x", (uint8_t)offset * cie_info->code_align, dstate->loc);
+o[0;1;32m                                         ~~                                           ^~~~~~~~~~~
+o[0m[0;32m                                         %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:415:95: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o  ...%d to 0x%x", (uint16_t)offset * cie_info->code_align, dstate->loc);
+o[0;1;32m             ~~                                            ^~~~~~~~~~~
+o[0m[0;32m             %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:420:85: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o            ALOGV("DW_CFA_advance_loc4: %d to 0x%x", offset * cie_info->code_align, dstate->loc);
+o[0;1;32m                                                ~~                                  ^~~~~~~~~~~
+o[0m[0;32m                                                %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:578:42: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("update_state: new CFA: 0x%x", cfa);
+o[0;1;32m                                    ~~   ^~~
+o[0m[0;32m                                    %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:626:40: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o    if (!try_get_word(memory, fde + 4, &cie_offset)) {
+o[0;1;32m                                       ^~~~~~~~~~~
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:24:
+oIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../backtrace-arch.h:22:
+oIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../ptrace-arch.h:22:
+o[1minclude/corkscrew/ptrace.h:97:68: [0m[0;1;30mnote: [0mpassing argument to parameter 'out_value' here[0m
+obool try_get_word(const memory_t* memory, uintptr_t ptr, uint32_t* out_value);
+o[0;1;32m                                                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:644:44: [0m[0;1;35mwarning: [0m[1m
+o      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type
+o      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m
+o        if (!try_get_word(memory, cie + 4, &cie_offset)) {
+o[0;1;32m                                           ^~~~~~~~~~~
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:24:
+oIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../backtrace-arch.h:22:
+oIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../ptrace-arch.h:22:
+o[1minclude/corkscrew/ptrace.h:97:68: [0m[0;1;30mnote: [0mpassing argument to parameter 'out_value' here[0m
+obool try_get_word(const memory_t* memory, uintptr_t ptr, uint32_t* out_value);
+o[0;1;32m                                                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:653:43: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("execute_fde: CIE pointer: %x", cie);
+o[0;1;32m                                     ~~   ^~~
+o[0m[0;32m                                     %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:771:41: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o    ALOGV("execute_fde: FDE start: %x", dstate->loc);
+o[0;1;32m                                   ~~   ^~~~~~~~~~~
+o[0m[0;32m                                   %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:795:57: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("IP: %x, LOC: %x", state->reg[DWARF_EIP], dstate->loc);
+o[0;1;32m                            ~~                          ^~~~~~~~~~~
+o[0m[0;32m                            %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:828:32: [0m[0;1;35mwarning: [0m[1munused
+o      variable 'frame' [-Wunused-variable][0m
+o            backtrace_frame_t* frame = add_backtrace_entry(
+o[0;1;32m                               ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:858:50: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')
+o      [-Wformat][0m
+o        ALOGV("Stack: 0x%x ... 0x%x - %d bytes", frame->stack_top, state->reg[DWARF_ESP], fram...
+o[0;1;32m                        ~~                       ^~~~~~~~~~~~~~~~
+o[0m[0;32m                        %lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:858:91: [0m[0;1;35mwarning: [0m[1mformat
+o      specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat][0m
+o  ...0x%x ... 0x%x - %d bytes", frame->stack_top, state->reg[DWARF_ESP], frame->stack_size);
+o[0;1;32m                     ~~                                                  ^~~~~~~~~~~~~~~~~
+o[0m[0;32m                     %zu
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m26 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c205"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o [1mlibcorkscrew/arch-x86/backtrace-x86.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler3753ddff48a6b941^4c52290049a6b941^-31626"[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:292:52: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("find_fde: no map info for pc:0x%x", pc);[0;1;32m                                              ~~   ^~[0m[0;32m                                              %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:297:74: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("find_fde: no eh_frame_hdr for map: start=0x%x, end=0x%x", mi->start, mi->end);[0;1;32m                                                          ~~             ^~~~~~~~~[0m[0;32m                                                          %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:297:85: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("find_fde: no eh_frame_hdr for map: start=0x%x, end=0x%x", mi->start, mi->end);[0;1;32m                                                                    ~~              ^~~~~~~[0m[0;32m                                                                    %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:329:43: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m    if (!read_dwarf(memory, eh_frame_hdr, &eh_hdr_info.eh_frame_ptr, eh_hdr_info.eh_frame_ptr_...[0;1;32m                                          ^~~~~~~~~~~~~~~~~~~~~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing      argument to parameter 'out_value' here[0mstatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...[0;1;32m                                                                        ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:341:47: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m        if (!read_dwarf(memory, eh_frame_hdr, &start, eh_hdr_info.fde_table_enc, &entry)) return 0;[0;1;32m                                              ^~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing      argument to parameter 'out_value' here[0mstatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...[0;1;32m                                                                        ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:350:59: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("find_fde: pc %x is out of FDE bounds: %x", pc, start);[0;1;32m                            ~~                            ^~[0m[0;32m                            %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:350:63: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("find_fde: pc %x is out of FDE bounds: %x", pc, start);[0;1;32m                                                     ~~       ^~~~~[0m[0;32m                                                     %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:354:43: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m    if (!read_dwarf(memory, eh_frame_hdr, &start, eh_hdr_info.fde_table_enc, &c)) return 0;[0;1;32m                                          ^~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing      argument to parameter 'out_value' here[0mstatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...[0;1;32m                                                                        ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:355:43: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m    if (!read_dwarf(memory, eh_frame_hdr, &fde, eh_hdr_info.fde_table_enc, &c)) return 0;[0;1;32m                                          ^~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:231:73: [0m[0;1;30mnote: [0mpassing      argument to parameter 'out_value' here[0mstatic bool read_dwarf(const memory_t* memory, uintptr_t ptr, uint32_t* out_value, uint8_t enc...[0;1;32m                                                                        ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:54: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);[0;1;32m                ~~                                   ^~[0m[0;32m                %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:64: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);[0;1;32m                                      ~~                       ^~~~~[0m[0;32m                                      %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:356:71: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("pc 0x%x, ENTRY %d: start=0x%x, fde=0x%x", pc, high, start, fde);[0;1;32m                                                ~~                    ^~~[0m[0;32m                                                %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:383:57: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m            ALOGV("DW_CFA_advance_loc: %d to 0x%x", op, dstate->loc);[0;1;32m                                               ~~       ^~~~~~~~~~~[0m[0;32m                                               %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:405:80: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m            ALOGV("DW_CFA_set_loc: %d to 0x%x", offset * cie_info->code_align, dstate->loc);[0;1;32m                                           ~~                                  ^~~~~~~~~~~[0m[0;32m                                           %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:410:94: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m  ...ALOGV("DW_CFA_advance_loc1: %d to 0x%x", (uint8_t)offset * cie_info->code_align, dstate->loc);[0;1;32m                                         ~~                                           ^~~~~~~~~~~[0m[0;32m                                         %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:415:95: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m  ...%d to 0x%x", (uint16_t)offset * cie_info->code_align, dstate->loc);[0;1;32m             ~~                                            ^~~~~~~~~~~[0m[0;32m             %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:420:85: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m            ALOGV("DW_CFA_advance_loc4: %d to 0x%x", offset * cie_info->code_align, dstate->loc);[0;1;32m                                                ~~                                  ^~~~~~~~~~~[0m[0;32m                                                %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:578:42: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("update_state: new CFA: 0x%x", cfa);[0;1;32m                                    ~~   ^~~[0m[0;32m                                    %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:626:40: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m    if (!try_get_word(memory, fde + 4, &cie_offset)) {[0;1;32m                                       ^~~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:24:In file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../backtrace-arch.h:22:In file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../ptrace-arch.h:22:[1minclude/corkscrew/ptrace.h:97:68: [0m[0;1;30mnote: [0mpassing argument to parameter 'out_value' here[0mbool try_get_word(const memory_t* memory, uintptr_t ptr, uint32_t* out_value);[0;1;32m                                                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:644:44: [0m[0;1;35mwarning: [0m[1m      incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type      'uint32_t *' (aka 'unsigned int *') [-Wincompatible-pointer-types][0m        if (!try_get_word(memory, cie + 4, &cie_offset)) {[0;1;32m                                           ^~~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:24:In file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../backtrace-arch.h:22:In file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/../ptrace-arch.h:22:[1minclude/corkscrew/ptrace.h:97:68: [0m[0;1;30mnote: [0mpassing argument to parameter 'out_value' here[0mbool try_get_word(const memory_t* memory, uintptr_t ptr, uint32_t* out_value);[0;1;32m                                                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:653:43: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("execute_fde: CIE pointer: %x", cie);[0;1;32m                                     ~~   ^~~[0m[0;32m                                     %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:771:41: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m    ALOGV("execute_fde: FDE start: %x", dstate->loc);[0;1;32m                                   ~~   ^~~~~~~~~~~[0m[0;32m                                   %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:795:57: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("IP: %x, LOC: %x", state->reg[DWARF_EIP], dstate->loc);[0;1;32m                            ~~                          ^~~~~~~~~~~[0m[0;32m                            %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:828:32: [0m[0;1;35mwarning: [0m[1munused      variable 'frame' [-Wunused-variable][0m            backtrace_frame_t* frame = add_backtrace_entry([0;1;32m                               ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:858:50: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')      [-Wformat][0m        ALOGV("Stack: 0x%x ... 0x%x - %d bytes", frame->stack_top, state->reg[DWARF_ESP], fram...[0;1;32m                        ~~                       ^~~~~~~~~~~~~~~~[0m[0;32m                        %lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:858:91: [0m[0;1;35mwarning: [0m[1mformat      specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat][0m  ...0x%x ... 0x%x - %d bytes", frame->stack_top, state->reg[DWARF_ESP], frame->stack_size);[0;1;32m                     ~~                                                  ^~~~~~~~~~~~~~~~~[0m[0;32m                     %zu[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c:37:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m26 warnings generated.26(36%IDEClangDiagnosticActivityLogMessage2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^291#51#291#51#8236#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^291#51#291#53#8236#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^291#46#291#48#8231#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^291#46#291#48#8231#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#73#296#73#8403#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#73#296#82#8403#4#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#58#296#60#8388#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#58#296#60#8388#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#84#296#84#8414#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#84#296#91#8414#4#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#68#296#70#8398#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^296#68#296#70#8398#2#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^230#72#230#72#6199#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^328#42#328#42#9877#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^328#42#328#67#9877#13#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^230#72#230#72#6199#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^340#46#340#46#10444#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^340#46#340#52#10444#1#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#58#349#58#10725#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#58#349#60#10725#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#28#349#30#10695#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#28#349#30#10695#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#62#349#62#10729#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#62#349#67#10729#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#53#349#55#10720#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^349#53#349#55#10720#2#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^230#72#230#72#6199#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^353#42#353#42#10822#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^353#42#353#48#10822#1#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^230#72#230#72#6199#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^354#42#354#42#10914#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^354#42#354#46#10914#1#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#53#355#53#11015#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#53#355#55#11015#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#16#355#18#10978#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#16#355#18#10978#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#63#355#63#11025#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#63#355#68#11025#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#38#355#40#11000#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#38#355#40#11000#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#70#355#70#11032#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#70#355#73#11032#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#48#355#50#11010#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^355#48#355#50#11010#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^382#56#382#56#11926#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^382#56#382#67#11926#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^382#47#382#49#11917#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^382#47#382#49#11917#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^404#79#404#79#13024#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^404#79#404#90#13024#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^404#43#404#45#12988#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^404#43#404#45#12988#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^409#93#409#93#13336#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^409#93#409#104#13336#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^409#48#409#50#13291#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^409#48#409#50#13291#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^414#94#414#94#13645#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^414#94#414#105#13645#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^414#48#414#50#13599#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^414#48#414#50#13599#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^419#84#419#84#13934#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^419#84#419#95#13934#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^419#48#419#50#13898#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^419#48#419#50#13898#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^577#41#577#41#21443#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^577#41#577#44#21443#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^577#36#577#38#21438#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^577#36#577#38#21438#2#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h0000000000000000^96#67#96#67#2454#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^625#39#625#39#23321#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^625#39#625#50#23321#1#-2@129"Incompatible pointer types passing 'uintptr_t *' (aka 'unsigned long *') to parameter of type 'uint32_t *' (aka 'unsigned int *')-430328064#18446744073709551615#0#1(2@46"Passing argument to parameter 'out_value' here-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h0000000000000000^96#67#96#67#2454#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^643#43#643#43#23929#0#14"Semantic Issue1(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^643#43#643#54#23929#1#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^652#42#652#42#24197#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^652#42#652#45#24197#0#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^652#37#652#39#24192#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^652#37#652#39#24192#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^770#40#770#40#28420#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^770#40#770#51#28420#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^770#35#770#37#28415#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^770#35#770#37#28415#2#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^794#56#794#56#29359#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^794#56#794#67#29359#8#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^794#28#794#30#29331#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^794#28#794#30#29331#2#-2@23"Unused variable 'frame'-430328064#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^827#31#827#31#30631#0#19"Unused Entity Issue--2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#49#857#49#32000#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#49#857#65#32000#7#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#24#857#26#31975#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#24#857#26#31975#2#-2@84"Format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#90#857#90#32041#0#19"Format String Issue3(3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#90#857#107#32041#7#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#38#857#40#31989#2#3@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^857#38#857#40#31989#2#-0#0#1#-19%DVTDocumentLocation4@79"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c0000000000000000^2688"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o [1mlibcorkscrew/arch-x86/backtrace-x86.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/backtrace-x86.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o36"2AD0B85A-BD94-46BF-9D2A-C48AC4649623-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.864300
+e430328064.050307
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/backtrace.h
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace-helper.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/demangle.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/atomic.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c188"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o [1mlibcorkscrew/backtrace.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilera455ddff48a6b941^2ae20c0049a6b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c0000000000000000^2646"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o [1mlibcorkscrew/backtrace.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/backtrace.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o36"66047739-CFA9-4820-8FCA-5324A95FA828-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.864632
+e430328064.038292
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/demangle.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c186"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o [1mlibcorkscrew/demangle.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler137eddff48a6b941^b8cc090049a6b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c0000000000000000^2640"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o [1mlibcorkscrew/demangle.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/demangle.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o36"C69ECD6A-86F7-43A3-BAA8-7236D1052D2C-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.864974
+e430328064.071627
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+o[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:63:15: [0m[0;1;35mwarning: [0m[1mformat specifies type
+o      'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m
+o              mi->start, mi->end,
+o[0;1;32m              ^~~~~~~~~
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:29:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:63:26: [0m[0;1;35mwarning: [0m[1mformat specifies type
+o      'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m
+o              mi->start, mi->end,
+o[0;1;32m                         ^~~~~~~
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:29:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c186"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o [1mlibcorkscrew/map_info.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9692ddff48a6b941^0456120049a6b941^-2427"[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:63:15: [0m[0;1;35mwarning: [0m[1mformat specifies type      'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m              mi->start, mi->end,[0;1;32m              ^~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:29:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:63:26: [0m[0;1;35mwarning: [0m[1mformat specifies type      'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m              mi->start, mi->end,[0;1;32m                         ^~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c:29:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^62#14#62#14#2131#0#19"Format String Issue3(3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^62#14#62#23#2131#4#3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^60#35#60#39#2023#4#3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^60#35#60#39#2023#4#-2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^62#25#62#25#2142#0#19"Format String Issue3(3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^62#25#62#32#2142#4#3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^60#47#60#51#2035#4#3@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^60#47#60#51#2035#4#-0#0#1#-19%DVTDocumentLocation4@65"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c0000000000000000^2640"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o [1mlibcorkscrew/map_info.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/map_info.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o36"DDE37612-5E0D-4622-B61C-78B9B30FC279-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.863903
+e430328064.047464
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/elf.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+o[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c:50:83: [0m[0;1;35mwarning: [0m[1mformat specifies
+o      type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m
+o                ALOGV("Parsed .eh_frame_hdr info for %s: start=0x%08x", mi->name, *eh_frame_hdr);
+o[0;1;32m                                                                 ~~~~             ^~~~~~~~~~~~~
+o[0m[0;32m                                                                 %08lx
+o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c:24:
+oIn file included from include/cutils/log.h:1:
+o[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m
+o#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+o[0;1;32m                                                     ^
+o[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m
+o    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+o[0;1;32m                                     ^
+o[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m
+o    android_printLog(priority, tag, __VA_ARGS__)
+o[0;1;32m                                    ^
+o[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m
+o    __android_log_print(prio, tag, fmt)
+o[0;1;32m                                   ^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c199"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o [1mlibcorkscrew/arch-x86/ptrace-x86.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilera758ddff48a6b941^89260c0049a6b941^-1459"[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c:50:83: [0m[0;1;35mwarning: [0m[1mformat specifies      type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long') [-Wformat][0m                ALOGV("Parsed .eh_frame_hdr info for %s: start=0x%08x", mi->name, *eh_frame_hdr);[0;1;32m                                                                 ~~~~             ^~~~~~~~~~~~~[0m[0;32m                                                                 %08lx[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c:24:In file included from include/cutils/log.h:1:[1minclude/log/log.h:80:54: [0m[0;1;30mnote: [0mexpanded from macro 'ALOGV'[0m#define ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))[0;1;32m                                                     ^[0m[1minclude/log/log.h:430:38: [0m[0;1;30mnote: [0mexpanded from macro 'ALOG'[0m    LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)[0;1;32m                                     ^[0m[1minclude/log/log.h:438:37: [0m[0;1;30mnote: [0mexpanded from macro 'LOG_PRI'[0m    android_printLog(priority, tag, __VA_ARGS__)[0;1;32m                                    ^[0m[1minclude/log/log.h:502:36: [0m[0;1;30mnote: [0mexpanded from macro 'android_printLog'[0m    __android_log_print(prio, tag, fmt)[0;1;32m                                   ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@96"Format specifies type 'unsigned int' but the argument has type 'uintptr_t' (aka 'unsigned long')-430328064#18446744073709551615#0#4(2@27"Expanded from macro 'ALOGV'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^79#53#79#53#2264#0#21"Apple LLVM 5.0 Notice--2@26"Expanded from macro 'ALOG'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^429#37#429#37#11215#0#21"Apple LLVM 5.0 Notice--2@29"Expanded from macro 'LOG_PRI'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^437#36#437#36#11400#0#21"Apple LLVM 5.0 Notice--2@38"Expanded from macro 'android_printLog'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@59"file:///Volumes/DataHD/Projects/unzip2mem/include/log/log.h0000000000000000^501#35#501#35#13324#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@76"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c0000000000000000^49#82#49#82#2122#0#19"Format String Issue3(3@76"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c0000000000000000^49#82#49#95#2122#1#3@76"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c0000000000000000^49#65#49#69#2105#4#3@76"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c0000000000000000^49#65#49#69#2105#4#-0#0#1#-19%DVTDocumentLocation4@76"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c0000000000000000^2670"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o [1mlibcorkscrew/arch-x86/ptrace-x86.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/arch-x86/ptrace-x86.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o36"243F9333-E644-4A05-A05C-4A6915C426C7-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.865634
+e430328064.055859
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace-arch.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/ptrace.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c182"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o [1mlibcorkscrew/ptrace.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler09c2ddff48a6b941^c24d0e0049a6b941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c0000000000000000^2628"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o [1mlibcorkscrew/ptrace.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/ptrace.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o36"D5D26C48-609F-44F1-AF85-56AC70B8FFF6-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CCompileC build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430328063.866515
+e430328064.033199
+r1
+xCompileC
+xbuild/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o
+x/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c
+d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/symbol_table.h
+d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
+d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
+d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
+o[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c:45:12: [0m[0;1;35mwarning: [0m[1munused function
+o      'qcompar' [-Wunused-function][0m
+ostatic int qcompar(const void *a, const void *b) {
+o[0;1;32m           ^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c194"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o [1mlibcorkscrew/symbol_table.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler8ee9ddff48a6b941^dc7f080049a6b941^-258"[1m/Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c:45:12: [0m[0;1;35mwarning: [0m[1munused function      'qcompar' [-Wunused-function][0mstatic int qcompar(const void *a, const void *b) {[0;1;32m           ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Unused function 'qcompar'-430328064#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c0000000000000000^44#11#44#11#1178#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@69"file:///Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c0000000000000000^2664"[1mCompileC[0m build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o [1mlibcorkscrew/symbol_table.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/libcorkscrew-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.dia -c /Volumes/DataHD/Projects/unzip2mem/libcorkscrew/symbol_table.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o36"24A333F3-2358-4DD7-81A7-EEF25B2B9B5F-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+
+CLibtool /Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a normal i386
+s430328064.162501
+e430328064.167138
+r1
+xLibtool
+x/Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"[1mLibtool[0m build/Release/libcorkscrew.a normal i38656"[1mLibtool[0m build/Release/libcorkscrew.a normal i38697ad290049a6b941^21cb2a0049a6b941^---0#0#1#--632"[1mLibtool[0m build/Release/libcorkscrew.a normal i386    cd /Volumes/DataHD/Projects/unzip2mem    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/DataHD/Projects/unzip2mem/build/Release -filelist /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/libcorkscrew.LinkFileList -o /Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a36"979777AE-34BF-4909-9ADF-18F4AE4BF028-
+b41AB1320-FA20-4887-88DF-D448F6A8A813
+

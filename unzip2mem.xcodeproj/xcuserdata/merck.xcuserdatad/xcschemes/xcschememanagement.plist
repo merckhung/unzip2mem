@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>libcorkscrew.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>libcutils.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>libgccdemangle.a.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>liblog.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>unzip2mem.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +32,31 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6905E47619A641AF003F44A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6905E47E19A641F3003F44A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6905E49319A64241003F44A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6905E4A119A645C9003F44A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6905E55319A64853003F44A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>69F4BD2F19A38425007CB77E</key>
 		<dict>
 			<key>primary</key>

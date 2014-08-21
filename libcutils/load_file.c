@@ -18,6 +18,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
+#ifdef __APPLE__
+#include <stdio.h>
+#endif
 
 void *load_file(const char *fn, unsigned *_sz)
 {

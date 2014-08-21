@@ -1,0 +1,9 @@
+d70de620eb24f7a1110736d27c6b92e7 13e81b48d56f08aa30db39b938765fe9 ffffffffffffffffffffffffffffffff 0 /Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a
+000000000090588000000000000015a1 0f91f8f1512e64d13ef800dad02ea4a1 ffffffffffffffffffffffffffffffff 4176 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/symbol_table.o
+00000000009058800000000000001de6 fc2e34dd210102ee4778f41ec964cecf ffffffffffffffffffffffffffffffff 8820 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace.o
+00000000009058800000000000002f9c 943bed455a8e133a4419b5cae127230f ffffffffffffffffffffffffffffffff 15128 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/map_info.o
+00000000009058800000000000000bdf 84f248c5a1114672506480bd38fe499b ffffffffffffffffffffffffffffffff 2208 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/demangle.o
+000000000090588000000000000020e1 c87aea007c789376c39b1db049557ed4 ffffffffffffffffffffffffffffffff 13004 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace.o
+00000000009058800000000000000bb5 efde5492f64506f3e42fac15adff1d28 ffffffffffffffffffffffffffffffff 3036 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-helper.o
+00000000009058800000000000000693 a11f6aa5147910c4c005556ae133b529 ffffffffffffffffffffffffffffffff 6328 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/ptrace-x86.o
+00000000009058800000000000008c71 b2c05bbbfe24c5299b4b13aeb961ca7a ffffffffffffffffffffffffffffffff 43184 /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcorkscrew.build/Objects-normal/i386/backtrace-x86.o
