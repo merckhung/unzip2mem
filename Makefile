@@ -29,13 +29,13 @@ STRIP    :=	$(CROSS_COMPILE)strip
 CPPLINT	 :=	tools/cpplint.py
 
 # Common flags
-CPPFLAGS	:=	-Iinclude -Wall -g3
+CPPFLAGS	:=	-m32 -Iinclude -Wall -g3
 #CPPFLAGS	+=	-std=c++11
 ifeq ($(OS), Darwin)
 CPPFLAGS	+=	-I/usr/include/c++/4.2.1
 endif
 
-LDFLAGS		:=	-lz
+LDFLAGS		:=	-lz -lcutils -Llibcutils -Llibcorkscrew -lcorkscrew -Lliblog -llog
 ifeq ($(OS), Darwin)
 LDFLAGS		+=	-stdlib=libstdc++ -lc++
 endif
@@ -43,17 +43,36 @@ endif
 # Modules
 MODULES	:= unzip2mem
 SRCS		:= fd_file.cc zip_archive.cc os_linux.cc stringpiece.cc main.cc
+SRCS		+= stringprintf.cc mem_map.cc
+
+.PHONY:	gcc-demangle liblog libcutils libcorkscrew
 
 # Rules
-all: $(MODULES)
+all: gcc-demangle liblog libcutils libcorkscrew $(MODULES)
 
 unzip2mem:
-	@$(CPP) -o $@ $(CPPFLAGS) $(LDFLAGS) $(SRCS)
+	$(CPP) -o $@ $(CPPFLAGS) $(SRCS) $(LDFLAGS)
+
+gcc-demangle:
+	@make -C $@
+
+liblog:
+	@make -C $@
+
+libcutils:
+	@make -C $@
+
+libcorkscrew:
+	@make -C $@
 
 %.o: %.cpp
 	@$(CPP) -o $@ $< $(CPPFLAGS) -c
 
 clean:
+	@make -C gcc-demangle clean
+	@make -C liblog clean
+	@make -C libcutils clean
+	@make -C libcorkscrew clean
 	@$(RM) -rf $(MODULES) *.dSYM
 	$(shell find ./ -name "*.o" -exec rm -f {} \;)
 

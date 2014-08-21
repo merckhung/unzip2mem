@@ -4,7 +4,11 @@
 
 int main(int argc, char** argv) {
 
+#ifdef __APPLE__
   std::string zip_filename("/Users/merck/Projects/unzip2mem/files/Loop.jar");
+#else
+	std::string zip_filename("/home/merck/Projects/unzip2mem/files/Loop.jar");
+#endif
   char image_classes_filename[] = "classes.dex";
 
   UniquePtr<art::ZipArchive> zip_archive(art::ZipArchive::Open(zip_filename));

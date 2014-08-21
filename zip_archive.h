@@ -30,7 +30,9 @@
 #include "UniquePtr.h"
 #include "macros.h"
 
+#ifdef __APPLE__
 typedef uint64_t off64_t;
+#endif
 
 namespace art {
 
@@ -131,7 +133,7 @@ class ZipArchive {
   int fd_;
   uint16_t num_entries_;
   off_t dir_offset_;
-  //UniquePtr<MemMap> dir_map_;
+  UniquePtr<MemMap> dir_map_;
   typedef SafeMap<StringPiece, const byte*> DirEntries;
   DirEntries dir_entries_;
 

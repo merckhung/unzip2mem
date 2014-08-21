@@ -18,11 +18,11 @@
 
 #include <corkscrew/map_info.h>
 
-#include "base/stringprintf.h"
+#include "stringprintf.h"
 #include "ScopedFd.h"
 #include "utils.h"
 
-#define USE_ASHMEM 0
+#define USE_ASHMEM 1
 
 #ifdef USE_ASHMEM
 #include <cutils/ashmem.h>
