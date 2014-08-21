@@ -1,201 +1,0 @@
-Tunzip2mem
-v6
-r1
-cCheck dependencies
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o /Volumes/DataHD/Projects/unzip2mem/main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c00000000530295C100000000000000AA
-t1392678337
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053665862000000000000044C
-t1399216226
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005366586200000000000001DE
-t1399216226
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005366586A0000000000000ADC
-t1399216234
-s2780
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o
-t1408455714
-s2844
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/unzip2mem.LinkFileList
-c0000000053F3542200000000000000E3
-t1408455714
-s227
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o
-t1408455715
-s308932
-
-N/Volumes/DataHD/Projects/unzip2mem/main.cc
-c0000000053F34B200000000000000047
-t1408453408
-s71
-
-N/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-c0000000053F3539E00000000000046D9
-t1408455582
-s18137
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1ac29da28ba3b941^5ebea5a28ba3b941^---0#1#1#--18"Check dependencies36"3F6407A2-7976-4E3B-BE8B-66FCD0B55D5D-
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o /Volumes/DataHD/Projects/unzip2mem/main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430148514.649633
-e430148514.921684
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o
-x/Volumes/DataHD/Projects/unzip2mem/main.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/main.cc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Volumes/DataHD/Projects/unzip2mem/main.cc169"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o [1mmain.cc[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0262a6a28ba3b941^e0f3eba28ba3b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Volumes/DataHD/Projects/unzip2mem/main.cc0000000000000000^2757"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o [1mmain.cc[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Icutils -Iunix_file -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/x86_64 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.dia -c /Volumes/DataHD/Projects/unzip2mem/main.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o36"134F1AE7-BD4B-4866-933F-D511049426CF-
-b8DF84BCC-16A1-4371-88F6-245A5900DAD3
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430148514.649447
-e430148515.294413
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o
-x/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-d/Volumes/DataHD/Projects/unzip2mem/zip_archive.h
-d/Volumes/DataHD/Projects/unzip2mem/logging.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-d/Volumes/DataHD/Projects/unzip2mem/log_severity.h
-d/Volumes/DataHD/Projects/unzip2mem/UniquePtr.h
-d/Volumes/DataHD/Projects/unzip2mem/stringpiece.h
-d/Volumes/DataHD/Projects/unzip2mem/unix_file/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/globals.h
-d/Volumes/DataHD/Projects/unzip2mem/mem_map.h
-d/Volumes/DataHD/Projects/unzip2mem/os.h
-d/Volumes/DataHD/Projects/unzip2mem/safe_map.h
-d/Volumes/DataHD/Projects/unzip2mem/unix_file/fd_file.h
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:17:
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.h:26:
-o[1m/Volumes/DataHD/Projects/unzip2mem/globals.h:39:32: [0m[0;1;35mwarning: [0m[1mshift count >= width of type
-o      [-Wshift-count-overflow][0m
-oconst int kWordHighBitMask = 1 << (kBitsPerWord - 1);
-o[0;1;32m                               ^  ~~~~~~~~~~~~~~~~~~
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:162:26: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int') [-Wshorten-64-to-32][0m
-o    zstream_.avail_out = write_buf_size;
-o[0;1;32m                       ~ ^~~~~~~~~~~~~~
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:214:35: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int') [-Wshorten-64-to-32][0m
-o        zstream->Get().avail_in = bytes_to_read;
-o[0;1;32m                                ~ ^~~~~~~~~~~~~
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:454:24: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'unsigned long' to 'int' [-Wshorten-64-to-32][0m
-o  for (i = read_amount - kEOCDLen; i >= 0; i--) {
-o[0;1;32m         ~ ~~~~~~~~~~~~^~~~~~~~~~
-o[0m4 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc183"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o [1mzip_archive.cc[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere95fa6a28ba3b941^c85e4ba38ba3b941^-1397"In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:17:In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.h:26:[1m/Volumes/DataHD/Projects/unzip2mem/globals.h:39:32: [0m[0;1;35mwarning: [0m[1mshift count >= width of type      [-Wshift-count-overflow][0mconst int kWordHighBitMask = 1 << (kBitsPerWord - 1);[0;1;32m                               ^  ~~~~~~~~~~~~~~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:162:26: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int') [-Wshorten-64-to-32][0m    zstream_.avail_out = write_buf_size;[0;1;32m                       ~ ^~~~~~~~~~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:214:35: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int') [-Wshorten-64-to-32][0m        zstream->Get().avail_in = bytes_to_read;[0;1;32m                                ~ ^~~~~~~~~~~~~[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:454:24: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'unsigned long' to 'int' [-Wshorten-64-to-32][0m  for (i = read_amount - kEOCDLen; i >= 0; i--) {[0;1;32m         ~ ~~~~~~~~~~~~^~~~~~~~~~[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@28"Shift count >= width of type-430148515#18446744073709551615#0#2(2@75"In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:17:-430148515#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^16#9#16#9#630#0#21"Apple LLVM 5.0 Notice--2@74"In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.h:26:-430148515#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@55"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.h0000000000000000^25#9#25#9#828#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@51"file:///Volumes/DataHD/Projects/unzip2mem/globals.h0000000000000000^38#31#38#31#1116#0#14"Semantic Issue1(3@51"file:///Volumes/DataHD/Projects/unzip2mem/globals.h0000000000000000^38#34#38#52#1119#17#-2@106"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int')-430148515#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^161#25#161#25#5024#0#22"Value Conversion Issue2(3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^161#25#161#39#5024#0#3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^161#23#161#24#5022#0#-2@106"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uInt' (aka 'unsigned int')-430148515#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^213#34#213#34#6756#0#22"Value Conversion Issue2(3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^213#34#213#47#6756#0#3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^213#32#213#33#6754#0#-2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-430148515#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^453#23#453#23#14317#0#22"Value Conversion Issue2(3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^453#11#453#33#14305#14#3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^453#9#453#10#14303#0#-0#0#1#-19%DVTDocumentLocation4@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^2799"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o [1mzip_archive.cc[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Icutils -Iunix_file -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/x86_64 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.dia -c /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o36"F3835701-CE35-4540-860F-F65D9C71EA4F-
-b8DF84BCC-16A1-4371-88F6-245A5900DAD3
-
-CGenerateDSYMFile /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem.dSYM /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-r0
-
-CLd /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem normal x86_64
-s430148515.294859
-e430148515.310563
-r0
-xLd
-x/Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-xnormal
-xx86_64
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/unzip2mem.LinkFileList
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/zip_archive.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-oUndefined symbols for architecture x86_64:
-o  "art::LogMessage::~LogMessage()", referenced from:
-o      art::ZipEntry::GetDataOffset() in zip_archive.o
-o      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o
-o      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o
-o      art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o
-o      art::ZipArchive::Open(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) in zip_archive.o
-o      art::ZipArchive::OpenFromFd(int) in zip_archive.o
-o      art::ZipArchive::MapCentralDirectory() in zip_archive.o
-o      ...
-o  "art::LogMessageData::LogMessageData(char const*, int, int, int)", referenced from:
-o      art::LogMessage::LogMessage(char const*, int, int, int) in zip_archive.o
-o  "art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int)", referenced from:
-o      art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o
-o  "art::MemMap::MapFileAtAddress(unsigned char*, unsigned long, int, int, int, long long, bool)", referenced from:
-o      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o
-o      art::ZipArchive::MapCentralDirectory() in zip_archive.o
-o  "art::MemMap::~MemMap()", referenced from:
-o      UniquePtr<art::MemMap, DefaultDelete<art::MemMap> >::reset(art::MemMap*) in zip_archive.o
-o  "unix_file::FdFile::Fd() const", referenced from:
-o      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o
-o  "unix_file::FdFile::GetPath() const", referenced from:
-o      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o
-o  "_inflate", referenced from:
-o      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o
-o  "_inflateEnd", referenced from:
-o      art::ZStream::~ZStream() in zip_archive.o
-o  "_inflateInit2_", referenced from:
-o      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o
-old: symbol(s) not found for architecture x86_64
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Link /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem48"[1mLd[0m build/Release/unzip2mem normal x86_646a874ba38ba3b941^94854fa38ba3b941^-2061"Undefined symbols for architecture x86_64:  "art::LogMessage::~LogMessage()", referenced from:      art::ZipEntry::GetDataOffset() in zip_archive.o      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o      art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o      art::ZipArchive::Open(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) in zip_archive.o      art::ZipArchive::OpenFromFd(int) in zip_archive.o      art::ZipArchive::MapCentralDirectory() in zip_archive.o      ...  "art::LogMessageData::LogMessageData(char const*, int, int, int)", referenced from:      art::LogMessage::LogMessage(char const*, int, int, int) in zip_archive.o  "art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int)", referenced from:      art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o  "art::MemMap::MapFileAtAddress(unsigned char*, unsigned long, int, int, int, long long, bool)", referenced from:      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o      art::ZipArchive::MapCentralDirectory() in zip_archive.o  "art::MemMap::~MemMap()", referenced from:      UniquePtr<art::MemMap, DefaultDelete<art::MemMap> >::reset(art::MemMap*) in zip_archive.o  "unix_file::FdFile::Fd() const", referenced from:      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o  "unix_file::FdFile::GetPath() const", referenced from:      art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o  "_inflate", referenced from:      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o  "_inflateEnd", referenced from:      art::ZStream::~ZStream() in zip_archive.o  "_inflateInit2_", referenced from:      art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)30(21%IDEActivityLogMessage2@50""art::LogMessage::~LogMessage()", referenced from:-430148515#43#53#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@47"Art::ZipEntry::GetDataOffset() in zip_archive.o-430148515#96#54#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o-430148515#150#72#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@78"Art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o-430148515#222#85#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@60"Art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o-430148515#307#67#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@132"Art::ZipArchive::Open(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) in zip_archive.o-430148515#374#139#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@49"Art::ZipArchive::OpenFromFd(int) in zip_archive.o-430148515#513#56#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@55"Art::ZipArchive::MapCentralDirectory() in zip_archive.o-430148515#569#62#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@3"...-430148515#631#10#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@83""art::LogMessageData::LogMessageData(char const*, int, int, int)", referenced from:-430148515#641#86#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@72"Art::LogMessage::LogMessage(char const*, int, int, int) in zip_archive.o-430148515#727#79#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@94""art::MemMap::MapAnonymous(char const*, unsigned char*, unsigned long, int)", referenced from:-430148515#806#97#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@60"Art::ZipEntry::ExtractToMemMap(char const*) in zip_archive.o-430148515#903#67#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@112""art::MemMap::MapFileAtAddress(unsigned char*, unsigned long, int, int, int, long long, bool)", referenced from:-430148515#970#115#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@65"Art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o-430148515#1085#72#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@55"Art::ZipArchive::MapCentralDirectory() in zip_archive.o-430148515#1157#62#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@42""art::MemMap::~MemMap()", referenced from:-430148515#1219#45#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@89"UniquePtr<art::MemMap, DefaultDelete<art::MemMap> >::reset(art::MemMap*) in zip_archive.o-430148515#1264#96#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@49""unix_file::FdFile::Fd() const", referenced from:-430148515#1360#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@65"Art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o-430148515#1412#72#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""unix_file::FdFile::GetPath() const", referenced from:-430148515#1484#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@65"Art::ZipEntry::ExtractToFile(unix_file::FdFile&) in zip_archive.o-430148515#1541#72#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@28""_inflate", referenced from:-430148515#1613#31#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@78"Art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o-430148515#1644#85#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_inflateEnd", referenced from:-430148515#1729#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@41"Art::ZStream::~ZStream() in zip_archive.o-430148515#1763#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@34""_inflateInit2_", referenced from:-430148515#1811#37#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@78"Art::ZipEntry::ExtractToMemory(unsigned char*, unsigned long) in zip_archive.o-430148515#1848#85#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-430148515#1933#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-430148515#1981#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--862"[1mLd[0m build/Release/unzip2mem normal x86_64    cd /Volumes/DataHD/Projects/unzip2mem    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/DataHD/Projects/unzip2mem/build/Release -F/Volumes/DataHD/Projects/unzip2mem/build/Release -filelist /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/unzip2mem.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/x86_64/unzip2mem_dependency_info.dat -o /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem36"C5753078-49E7-4D7B-8C08-9F379FF2E1A1-
-b8DF84BCC-16A1-4371-88F6-245A5900DAD3
-
