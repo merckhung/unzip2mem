@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6905E55319A64853003F44A7"
-               BuildableName = "liblibcorkscrew.a"
+               BuildableName = "libcorkscrew.a"
                BlueprintName = "libcorkscrew"
                ReferencedContainer = "container:unzip2mem.xcodeproj">
             </BuildableReference>
