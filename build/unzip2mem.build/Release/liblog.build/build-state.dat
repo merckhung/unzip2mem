@@ -1,165 +1,0 @@
-Tliblog
-v6
-r1
-cCheck dependencies
-cCompileC build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o /Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c00000000530295C100000000000000AA
-t1392678337
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053665862000000000000044C
-t1399216226
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005366586200000000000001DE
-t1399216226
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005366586A0000000000000ADC
-t1399216234
-s2780
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o
-t1408635264
-s20144
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/liblog.LinkFileList
-c0000000053F60D1000000000000000E3
-t1408634128
-s227
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o
-t1408635264
-s13592
-
-N/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-c0000000053F600EA0000000000000F17
-t1408631018
-s3863
-
-N/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
-c0000000053F600EA0000000000003B2F
-t1408631018
-s15151
-
-N/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-c0000000053F600EA0000000000000525
-t1408631018
-s1317
-
-N/Volumes/DataHD/Projects/unzip2mem/include/log/logger.h
-c0000000053F600EA0000000000000A8D
-t1408631018
-s2701
-
-N/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-c0000000053F60E1F00000000000004B9
-t1408634399
-s1209
-
-N/Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c
-c0000000053F600EA0000000000004B65
-t1408631018
-s19301
-
-N/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c
-c0000000053F600EA000000000000219E
-t1408631018
-s8606
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescf84560049a6b941^98bf560049a6b941^---0#1#1#--18"Check dependencies36"F235E1A2-7ECC-49C2-AD1C-CEE7D8A2744A-
-
-CCompileC build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o /Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.339220
-e430328064.422255
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o
-x/Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-o[1m/Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c:324:19: [0m[0;1;35mwarning: [0m[1minitializing
-o      'struct iovec *' with an expression of type 'const struct iovec *' discards qualifiers
-o      [-Wincompatible-pointer-types-discards-qualifiers][0m
-o    struct iovec* end = iov + iovcnt;
-o[0;1;32m                  ^     ~~~~~~~~~~~~
-o[0m1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c188"[1mCompileC[0m build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o [1mliblog/fake_log_device.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9be5560049a6b941^4c196c0049a6b941^-378"[1m/Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c:324:19: [0m[0;1;35mwarning: [0m[1minitializing      'struct iovec *' with an expression of type 'const struct iovec *' discards qualifiers      [-Wincompatible-pointer-types-discards-qualifiers][0m    struct iovec* end = iov + iovcnt;[0;1;32m                  ^     ~~~~~~~~~~~~[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@99"Initializing 'struct iovec *' with an expression of type 'const struct iovec *' discards qualifiers-430328064#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@66"file:///Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c0000000000000000^323#18#323#18#9122#0#14"Semantic Issue1(3@66"file:///Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c0000000000000000^323#24#323#36#9128#6#-0#0#1#-19%DVTDocumentLocation4@66"file:///Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c0000000000000000^2606"[1mCompileC[0m build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o [1mliblog/fake_log_device.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DFAKE_LOG_DEVICE=1 -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.dia -c /Volumes/DataHD/Projects/unzip2mem/liblog/fake_log_device.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/fake_log_device.o36"720A5371-9070-4CBF-8ACC-45E6DCCAC7EF-
-b2EBD1AD9-5C4F-419F-8C71-2C499DA6C9B5
-
-CCompileC build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.339364
-e430328064.381518
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o
-x/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logger.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:30:
-o[1minclude/log/logger.h:54:37: [0m[0;1;35mwarning: [0m[1m'/*' within block comment [-Wcomment][0m
-o * more than this amount to /dev/log/* will result in a
-o[0;1;32m                                    ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:92:15: [0m[0;1;35mwarning: [0m[1mimplicit declaration of
-o      function 'fakeLogWritev' is invalid in C99 [-Wimplicit-function-declaration][0m
-o        ret = log_writev(log_fd, vec, nr);
-o[0;1;32m              ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:39:44: [0m[0;1;30mnote: [0mexpanded from macro 'log_writev'[0m
-o#define log_writev(filedes, vector, count) fakeLogWritev(filedes, vector, count)
-o[0;1;32m                                           ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:105:32: [0m[0;1;35mwarning: [0m[1mimplicit declaration of
-o      function 'fakeLogOpen' is invalid in C99 [-Wimplicit-function-declaration][0m
-o        log_fds[LOG_ID_MAIN] = log_open("/dev/"LOGGER_LOG_MAIN, O_WRONLY);
-o[0;1;32m                               ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:38:35: [0m[0;1;30mnote: [0mexpanded from macro 'log_open'[0m
-o#define log_open(pathname, flags) fakeLogOpen(pathname, flags)
-o[0;1;32m                                  ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:114:13: [0m[0;1;35mwarning: [0m[1mimplicit declaration of
-o      function 'fakeLogClose' is invalid in C99 [-Wimplicit-function-declaration][0m
-o            log_close(log_fds[LOG_ID_MAIN]);
-o[0;1;32m            ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:40:28: [0m[0;1;30mnote: [0mexpanded from macro 'log_close'[0m
-o#define log_close(filedes) fakeLogClose(filedes)
-o[0;1;32m                           ^
-o[0m4 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c178"[1mCompileC[0m build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o [1mliblog/logd_write.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler17f0560049a6b941^7eab610049a6b941^-1916"In file included from /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:30:[1minclude/log/logger.h:54:37: [0m[0;1;35mwarning: [0m[1m'/*' within block comment [-Wcomment][0m * more than this amount to /dev/log/* will result in a[0;1;32m                                    ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:92:15: [0m[0;1;35mwarning: [0m[1mimplicit declaration of      function 'fakeLogWritev' is invalid in C99 [-Wimplicit-function-declaration][0m        ret = log_writev(log_fd, vec, nr);[0;1;32m              ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:39:44: [0m[0;1;30mnote: [0mexpanded from macro 'log_writev'[0m#define log_writev(filedes, vector, count) fakeLogWritev(filedes, vector, count)[0;1;32m                                           ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:105:32: [0m[0;1;35mwarning: [0m[1mimplicit declaration of      function 'fakeLogOpen' is invalid in C99 [-Wimplicit-function-declaration][0m        log_fds[LOG_ID_MAIN] = log_open("/dev/"LOGGER_LOG_MAIN, O_WRONLY);[0;1;32m                               ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:38:35: [0m[0;1;30mnote: [0mexpanded from macro 'log_open'[0m#define log_open(pathname, flags) fakeLogOpen(pathname, flags)[0;1;32m                                  ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:114:13: [0m[0;1;35mwarning: [0m[1mimplicit declaration of      function 'fakeLogClose' is invalid in C99 [-Wimplicit-function-declaration][0m            log_close(log_fds[LOG_ID_MAIN]);[0;1;32m            ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:40:28: [0m[0;1;30mnote: [0mexpanded from macro 'log_close'[0m#define log_close(filedes) fakeLogClose(filedes)[0;1;32m                           ^[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@25"'/*' within block comment-430328064#18446744073709551615#0#1(2@80"In file included from /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c:30:-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^29#9#29#9#879#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@62"file:///Volumes/DataHD/Projects/unzip2mem/include/log/logger.h0000000000000000^53#36#53#36#1876#0#29"Lexical or Preprocessor Issue--2@66"Implicit declaration of function 'fakeLogWritev' is invalid in C99-430328064#18446744073709551615#0#1(2@32"Expanded from macro 'log_writev'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^38#43#38#43#1143#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^91#14#91#14#2755#0#14"Semantic Issue--2@64"Implicit declaration of function 'fakeLogOpen' is invalid in C99-430328064#18446744073709551615#0#1(2@30"Expanded from macro 'log_open'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^37#34#37#34#1071#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^104#31#104#31#3072#0#14"Semantic Issue--2@65"Implicit declaration of function 'fakeLogClose' is invalid in C99-430328064#18446744073709551615#0#1(2@31"Expanded from macro 'log_close'-430328064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^39#27#39#27#1208#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^113#12#113#12#3526#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@61"file:///Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c0000000000000000^2576"[1mCompileC[0m build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o [1mliblog/logd_write.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/liblog-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DFAKE_LOG_DEVICE=1 -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.dia -c /Volumes/DataHD/Projects/unzip2mem/liblog/logd_write.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/logd_write.o36"78EEEF92-C684-4C81-A59F-580F2188BA91-
-b2EBD1AD9-5C4F-419F-8C71-2C499DA6C9B5
-
-CLibtool /Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a normal i386
-s430328064.422693
-e430328064.426721
-r1
-xLibtool
-x/Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"[1mLibtool[0m build/Release/liblog.a normal i38650"[1mLibtool[0m build/Release/liblog.a normal i3862d3f6c0049a6b941^1d3e6d0049a6b941^---0#0#1#--608"[1mLibtool[0m build/Release/liblog.a normal i386    cd /Volumes/DataHD/Projects/unzip2mem    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/DataHD/Projects/unzip2mem/build/Release -filelist /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/liblog.build/Objects-normal/i386/liblog.LinkFileList -o /Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a36"A6FAA448-4384-4E76-9DFF-4326EECDAF06-
-b2EBD1AD9-5C4F-419F-8C71-2C499DA6C9B5
-

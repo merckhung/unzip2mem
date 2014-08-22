@@ -1,467 +1,0 @@
-Tlibcutils
-v6
-r1
-cCheck dependencies
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o /Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o /Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o /Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o /Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o /Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o /Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o /Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o /Volumes/DataHD/Projects/unzip2mem/libcutils/list.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o /Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o /Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o /Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o /Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o /Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o /Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053665862000000000000044C
-t1399216226
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005366586200000000000001DE
-t1399216226
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005366586A0000000000000ADC
-t1399216234
-s2780
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_inaddr_any_server.o
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c
-c0000000053F600EA0000000000000C4F
-t1408631018
-s3151
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c
-c0000000053F600EA00000000000002AE
-t1408631018
-s686
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c
-c0000000053F600EA0000000000001B2A
-t1408631018
-s6954
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c
-c0000000053F600EA00000000000009FD
-t1408631018
-s2557
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c
-c0000000053F600EA0000000000000478
-t1408631018
-s1144
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c
-c0000000053F600EA00000000000022BC
-t1408631018
-s8892
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c
-c0000000053F600EA0000000000000610
-t1408631018
-s1552
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/list.c
-c0000000053F600EA0000000000000400
-t1408631018
-s1024
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c
-c0000000053F600EA00000000000004CD
-t1408631018
-s1229
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c
-c0000000053F600EA00000000000005EF
-t1408631018
-s1519
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c
-c0000000053F600EA000000000000296E
-t1408631018
-s10606
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c
-c0000000053F600EA0000000000000B35
-t1408631018
-s2869
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c
-c0000000053F600EA00000000000011D7
-t1408631018
-s4567
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c
-c0000000053F600EA000000000000228D
-t1408631018
-s8845
-
-N/Volumes/DataHD/Projects/unzip2mem/libcutils/socket_inaddr_any_server.c
-c0000000053F600EA000000000000068E
-t1408631018
-s1678
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1b497ac247a6b941^412b84c247a6b941^---0#1#1#--18"Check dependencies36"4F85F871-06CE-49FB-B06C-45472D71005A-
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o /Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.518524
-e430327746.704895
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/ashmem.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c186"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o [1mlibcutils/ashmem-host.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerf6ed84c247a6b941^ef6fb4c247a6b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c0000000000000000^2642"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o [1mlibcutils/ashmem-host.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/ashmem-host.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/ashmem-host.o36"9B8AB12C-3C88-4A79-A9FA-EDB41AD5C7B9-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o /Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.518685
-e430327746.706743
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/atomic-inline.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/atomic-x86.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c176"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o [1mlibcutils/atomic.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler28ee84c247a6b941^23f3b4c247a6b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c0000000000000000^2612"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o [1mlibcutils/atomic.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/atomic.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/atomic.o36"22A138BF-8EB0-4594-8A74-3F223728980F-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o /Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.518864
-e430327746.832782
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/config_utils.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/misc.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c188"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o [1mlibcutils/config_utils.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler23f384c247a6b941^fa41d5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c0000000000000000^2648"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o [1mlibcutils/config_utils.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/config_utils.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/config_utils.o36"BB9A1572-208B-4FA8-9810-D933E5FD0D7F-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o /Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.519234
-e430327746.720833
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/cpu_info.h
-o[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c:34:13: [0m[0;1;35mwarning: [0m[1munused variable 'length'
-o      [-Wunused-variable][0m
-o        int length;
-o[0;1;32m            ^
-o[0m1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c180"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o [1mlibcutils/cpu_info.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler890a85c247a6b941^90bbb8c247a6b941^-220"[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c:34:13: [0m[0;1;35mwarning: [0m[1munused variable 'length'      [-Wunused-variable][0m        int length;[0;1;32m            ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'length'-430327746#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@62"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c0000000000000000^33#12#33#12#1065#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@62"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c0000000000000000^2624"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o [1mlibcutils/cpu_info.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/cpu_info.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/cpu_info.o36"2CB02CE9-919A-4C45-80FD-B8D864309D79-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o /Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.519620
-e430327746.704915
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c192"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o [1mlibcutils/dlmalloc_stubs.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler236785c247a6b941^c575b4c247a6b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c0000000000000000^2660"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o [1mlibcutils/dlmalloc_stubs.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/dlmalloc_stubs.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/dlmalloc_stubs.o36"D14D5D0C-8588-4E7B-A20D-3F091DF70F1F-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o /Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.520373
-e430327746.832837
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/hashmap.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/threads.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c178"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o [1mlibcutils/hashmap.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler46d385c247a6b941^8cd6d5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c0000000000000000^2618"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o [1mlibcutils/hashmap.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/hashmap.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/hashmap.o36"7833E808-468A-40EA-9AAD-70F80A0E4817-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o /Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.520543
-e430327746.704172
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c192"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o [1mlibcutils/iosched_policy.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler2a5685c247a6b941^9964b4c247a6b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c0000000000000000^2660"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o [1mlibcutils/iosched_policy.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/iosched_policy.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/iosched_policy.o36"9479FD61-3585-40C0-AC4C-9A19E5EB8BB9-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o /Volumes/DataHD/Projects/unzip2mem/libcutils/list.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.521601
-e430327746.703262
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/list.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/list.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/list.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/list.c172"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o [1mlibcutils/list.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler54ad85c247a6b941^6133b4c247a6b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/list.c0000000000000000^2600"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o [1mlibcutils/list.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/list.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/list.o36"A564FF93-4019-4BDD-B60C-A8699FDBD247-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o /Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.703582
-e430327746.731599
-r0
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c
-o[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c:32:23: [0m[0;1;31merror: [0m[1muse of undeclared identifier
-o      'SEEK_END'[0m
-o    sz = lseek(fd, 0, SEEK_END);
-o[0;1;32m                      ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c:35:21: [0m[0;1;31merror: [0m[1muse of undeclared identifier
-o      'SEEK_SET'[0m
-o    if(lseek(fd, 0, SEEK_SET) != 0) goto oops;
-o[0;1;32m                    ^
-o[0m2 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c182"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o [1mlibcutils/load_file.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler2635b4c247a6b941^be2ebbc247a6b941^-464"[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c:32:23: [0m[0;1;31merror: [0m[1muse of undeclared identifier      'SEEK_END'[0m    sz = lseek(fd, 0, SEEK_END);[0;1;32m                      ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c:35:21: [0m[0;1;31merror: [0m[1muse of undeclared identifier      'SEEK_SET'[0m    if(lseek(fd, 0, SEEK_SET) != 0) goto oops;[0;1;32m                    ^[0m2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@39"Use of undeclared identifier 'SEEK_END'-430327746#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@63"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c0000000000000000^31#22#31#22#892#0#14"Semantic Issue--2@39"Use of undeclared identifier 'SEEK_SET'-430327746#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@63"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c0000000000000000^34#20#34#20#950#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@63"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c0000000000000000^2630"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o [1mlibcutils/load_file.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/load_file.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/load_file.o36"487923E8-71A1-4CED-8038-2210785E6FA9-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o /Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.704777
-e430327746.832719
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/native_handle.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c190"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o [1mlibcutils/native_handle.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler62a3b4c247a6b941^c137d5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c0000000000000000^2654"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o [1mlibcutils/native_handle.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/native_handle.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/native_handle.o36"8AD996A1-174A-4427-9E78-E84AC23901AE-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o /Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.705227
-e430327746.832813
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/open_memstream.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c192"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o [1mlibcutils/open_memstream.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilercba2b4c247a6b941^63d4d5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c0000000000000000^2660"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o [1mlibcutils/open_memstream.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/open_memstream.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/open_memstream.o36"05A18387-E413-4D9A-9C6E-B84A900F469C-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o /Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.705962
-e430327746.832888
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/process_name.h
-o[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c:35:12: [0m[0;1;35mwarning: [0m[1munused variable
-o      'running_in_emulator' [-Wunused-variable][0m
-ostatic int running_in_emulator = -1;
-o[0;1;32m           ^
-o[0m1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c188"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o [1mlibcutils/process_name.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilere1cfb4c247a6b941^5229d6c247a6b941^-253"[1m/Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c:35:12: [0m[0;1;35mwarning: [0m[1munused variable      'running_in_emulator' [-Wunused-variable][0mstatic int running_in_emulator = -1;[0;1;32m           ^[0m1 warning generated.-0#0#1#-19%DVTDocumentLocation2@66"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c0000000000000000^2648"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o [1mlibcutils/process_name.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/process_name.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/process_name.o36"B3797A7F-2A12-4A0E-8DF9-B0C600B289E2-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o /Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.708498
-e430327746.832840
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/record_stream.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c190"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o [1mlibcutils/record_stream.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9b76b5c247a6b941^afced5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c0000000000000000^2654"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o [1mlibcutils/record_stream.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/record_stream.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/record_stream.o36"6319F5A5-C1D9-4017-B586-C88D64A3C716-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o /Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s430327746.721126
-e430327746.832853
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o
-x/Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/sched_policy.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/log.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/uio.h
-d/Volumes/DataHD/Projects/unzip2mem/include/log/logd.h
-d/Volumes/DataHD/Projects/unzip2mem/include/android/log.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c188"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o [1mlibcutils/sched_policy.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler20b2b8c247a6b941^f6d1d5c247a6b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c0000000000000000^2648"[1mCompileC[0m build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o [1mlibcutils/sched_policy.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/libcutils-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -DANDROID_SMP=0 -DHAVE_PTHREADS -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.dia -c /Volumes/DataHD/Projects/unzip2mem/libcutils/sched_policy.c -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sched_policy.o36"B51AB403-F212-434F-846C-6B8D28914E76-
-bC6D4D5BB-ED1F-49D4-8EDB-F5456BDF3D68
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_inaddr_any_server.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_inaddr_any_server.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_local_client.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_local_client.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_local_server.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_local_server.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_loopback_client.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_loopback_client.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_loopback_server.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_loopback_server.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/socket_network_client.o /Volumes/DataHD/Projects/unzip2mem/libcutils/socket_network_client.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/sockets.o /Volumes/DataHD/Projects/unzip2mem/libcutils/sockets.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/str_parms.o /Volumes/DataHD/Projects/unzip2mem/libcutils/str_parms.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/strdup16to8.o /Volumes/DataHD/Projects/unzip2mem/libcutils/strdup16to8.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/strdup8to16.o /Volumes/DataHD/Projects/unzip2mem/libcutils/strdup8to16.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/unzip2mem.build/Release/libcutils.build/Objects-normal/i386/threads.o /Volumes/DataHD/Projects/unzip2mem/libcutils/threads.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CLibtool /Volumes/DataHD/Projects/unzip2mem/build/Release/libcutils.a normal i386
-r0
-

@@ -1,374 +1,0 @@
-Tunzip2mem
-v6
-r1
-cCheck dependencies
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o /Volumes/DataHD/Projects/unzip2mem/mem_map.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o /Volumes/DataHD/Projects/unzip2mem/fd_file.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o /Volumes/DataHD/Projects/unzip2mem/main.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o /Volumes/DataHD/Projects/unzip2mem/os_linux.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o /Volumes/DataHD/Projects/unzip2mem/stringpiece.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c00000000530295C100000000000000AA
-t1392678337
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053665862000000000000044C
-t1399216226
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005366586200000000000001DE
-t1399216226
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
-c000000005366586500000000000044B8
-t1399216229
-s17592
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005366586A0000000000000ADC
-t1399216234
-s2780
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a
-c0000000053F611800000000000017D50
-t1408635264
-s97616
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/libcutils.a
-c0000000053F611800000000000024BA8
-t1408635264
-s150440
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/libgccdemangle.a
-c0000000053F61180000000000002B390
-t1408635264
-s177040
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a
-c0000000053F611800000000000008630
-t1408635264
-s34352
-
-N/Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-t2
-s0
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o
-t1408635265
-s55916
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o
-t1408635265
-s141440
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o
-t1408635265
-s117508
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o
-t1408635265
-s44168
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o
-t1408635265
-s70452
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/unzip2mem.LinkFileList
-c0000000053F6118000000000000002A0
-t1408635264
-s672
-
-N/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o
-t1408635265
-s226856
-
-N/Volumes/DataHD/Projects/unzip2mem/fd_file.cc
-c0000000053F35FCA0000000000000D4F
-t1408458698
-s3407
-
-N/Volumes/DataHD/Projects/unzip2mem/main.cc
-c0000000053F600EA0000000000000331
-t1408631018
-s817
-
-N/Volumes/DataHD/Projects/unzip2mem/mem_map.cc
-c0000000053F600EA0000000000001A69
-t1408631018
-s6761
-
-N/Volumes/DataHD/Projects/unzip2mem/os_linux.cc
-c0000000053F3650D00000000000006AF
-t1408460045
-s1711
-
-N/Volumes/DataHD/Projects/unzip2mem/stringpiece.cc
-c0000000053F34E3D0000000000000BA1
-t1408454205
-s2977
-
-N/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-c0000000053F600EA00000000000046B3
-t1408631018
-s18099
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesaef3fb0049a6b941^04a9fc0049a6b941^---0#1#1#--18"Check dependencies36"2C4F62D7-93B9-4894-8746-6527FFF9F1E6-
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o /Volumes/DataHD/Projects/unzip2mem/fd_file.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.987523
-e430328065.224792
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o
-x/Volumes/DataHD/Projects/unzip2mem/fd_file.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/fd_file.cc
-d/Volumes/DataHD/Projects/unzip2mem/fd_file.h
-d/Volumes/DataHD/Projects/unzip2mem/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-o[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:77:47: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o  int rc = TEMP_FAILURE_RETRY(pread(fd_, buf, byte_count, offset));
-o[0;1;32m                              ~~~~~           ^~~~~~~~~~
-o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:
-o[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m
-o    _rc = (exp); \
-o[0;1;32m           ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:93:48: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o  int rc = TEMP_FAILURE_RETRY(pwrite(fd_, buf, byte_count, offset));
-o[0;1;32m                              ~~~~~~           ^~~~~~~~~~
-o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:
-o[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m
-o    _rc = (exp); \
-o[0;1;32m           ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:112:56: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o    int bytes_read = TEMP_FAILURE_RETRY(read(fd_, ptr, byte_count));
-o[0;1;32m                                        ~~~~           ^~~~~~~~~~
-o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:
-o[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m
-o    _rc = (exp); \
-o[0;1;32m           ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:125:57: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o    int bytes_read = TEMP_FAILURE_RETRY(write(fd_, ptr, byte_count));
-o[0;1;32m                                        ~~~~~           ^~~~~~~~~~
-o[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:
-o[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m
-o    _rc = (exp); \
-o[0;1;32m           ^
-o[0m4 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Volumes/DataHD/Projects/unzip2mem/fd_file.cc171"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o [1mfd_file.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb5ddfc0049a6b941^e78b390149a6b941^-2748"[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:77:47: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m  int rc = TEMP_FAILURE_RETRY(pread(fd_, buf, byte_count, offset));[0;1;32m                              ~~~~~           ^~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:In file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m    _rc = (exp); \[0;1;32m           ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:93:48: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m  int rc = TEMP_FAILURE_RETRY(pwrite(fd_, buf, byte_count, offset));[0;1;32m                              ~~~~~~           ^~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:In file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m    _rc = (exp); \[0;1;32m           ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:112:56: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m    int bytes_read = TEMP_FAILURE_RETRY(read(fd_, ptr, byte_count));[0;1;32m                                        ~~~~           ^~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:In file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m    _rc = (exp); \[0;1;32m           ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/fd_file.cc:125:57: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32][0m    int bytes_read = TEMP_FAILURE_RETRY(write(fd_, ptr, byte_count));[0;1;32m                                        ~~~~~           ^~~~~~~~~~[0mIn file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.cc:18:In file included from /Volumes/DataHD/Projects/unzip2mem/fd_file.h:23:[1m/Volumes/DataHD/Projects/unzip2mem/macros.h:152:12: [0m[0;1;30mnote: [0mexpanded from macro 'TEMP_FAILURE_RETRY'[0m    _rc = (exp); \[0;1;32m           ^[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@106"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@40"Expanded from macro 'TEMP_FAILURE_RETRY'-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@50"file:///Volumes/DataHD/Projects/unzip2mem/macros.h0000000000000000^151#11#151#11#5934#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^76#46#76#46#1882#0#22"Value Conversion Issue2(3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^76#46#76#56#1882#0#3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^76#30#76#35#1866#0#-2@106"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@40"Expanded from macro 'TEMP_FAILURE_RETRY'-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@50"file:///Volumes/DataHD/Projects/unzip2mem/macros.h0000000000000000^151#11#151#11#5934#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^92#47#92#47#2352#0#22"Value Conversion Issue2(3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^92#47#92#57#2352#0#3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^92#30#92#36#2335#0#-2@106"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@40"Expanded from macro 'TEMP_FAILURE_RETRY'-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@50"file:///Volumes/DataHD/Projects/unzip2mem/macros.h0000000000000000^151#11#151#11#5934#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^111#55#111#55#2753#0#22"Value Conversion Issue2(3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^111#55#111#65#2753#0#3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^111#40#111#44#2738#0#-2@106"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_t' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@40"Expanded from macro 'TEMP_FAILURE_RETRY'-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@50"file:///Volumes/DataHD/Projects/unzip2mem/macros.h0000000000000000^151#11#151#11#5934#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^124#56#124#56#3169#0#22"Value Conversion Issue2(3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^124#56#124#66#3169#0#3@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^124#40#124#45#3153#0#-0#0#1#-19%DVTDocumentLocation4@52"file:///Volumes/DataHD/Projects/unzip2mem/fd_file.cc0000000000000000^2736"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o [1mfd_file.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.dia -c /Volumes/DataHD/Projects/unzip2mem/fd_file.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o36"5C5C9712-B366-4410-9BA0-90D66B847C5D-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o /Volumes/DataHD/Projects/unzip2mem/main.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.988015
-e430328065.443705
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o
-x/Volumes/DataHD/Projects/unzip2mem/main.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/main.cc
-d/Volumes/DataHD/Projects/unzip2mem/UniquePtr.h
-d/Volumes/DataHD/Projects/unzip2mem/zip_archive.h
-d/Volumes/DataHD/Projects/unzip2mem/stringpiece.h
-d/Volumes/DataHD/Projects/unzip2mem/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/globals.h
-d/Volumes/DataHD/Projects/unzip2mem/mem_map.h
-d/Volumes/DataHD/Projects/unzip2mem/os.h
-d/Volumes/DataHD/Projects/unzip2mem/safe_map.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Volumes/DataHD/Projects/unzip2mem/main.cc165"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o [1mmain.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler130afd0049a6b941^3e97710149a6b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Volumes/DataHD/Projects/unzip2mem/main.cc0000000000000000^2718"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o [1mmain.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.dia -c /Volumes/DataHD/Projects/unzip2mem/main.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o36"7B5D014D-9816-4C7D-9FCD-D9E7E7E02827-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o /Volumes/DataHD/Projects/unzip2mem/mem_map.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.987365
-e430328065.430400
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o
-x/Volumes/DataHD/Projects/unzip2mem/mem_map.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/mem_map.cc
-d/Volumes/DataHD/Projects/unzip2mem/mem_map.h
-d/Volumes/DataHD/Projects/unzip2mem/globals.h
-d/Volumes/DataHD/Projects/unzip2mem/include/corkscrew/map_info.h
-d/Volumes/DataHD/Projects/unzip2mem/stringprintf.h
-d/Volumes/DataHD/Projects/unzip2mem/ScopedFd.h
-d/Volumes/DataHD/Projects/unzip2mem/utils.h
-d/Volumes/DataHD/Projects/unzip2mem/fd_file.h
-d/Volumes/DataHD/Projects/unzip2mem/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-d/Volumes/DataHD/Projects/unzip2mem/UniquePtr.h
-d/Volumes/DataHD/Projects/unzip2mem/include/cutils/ashmem.h
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/mem_map.cc:23:
-o[1m/Volumes/DataHD/Projects/unzip2mem/utils.h:150:29: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o    result->append(&buf[0], n);
-o[0;1;32m    ~~~~~~                  ^
-o[0m1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Volumes/DataHD/Projects/unzip2mem/mem_map.cc171"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o [1mmem_map.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compileraad4fc0049a6b941^23306e0149a6b941^-394"In file included from /Volumes/DataHD/Projects/unzip2mem/mem_map.cc:23:[1m/Volumes/DataHD/Projects/unzip2mem/utils.h:150:29: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32][0m    result->append(&buf[0], n);[0;1;32m    ~~~~~~                  ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@109"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@71"In file included from /Volumes/DataHD/Projects/unzip2mem/mem_map.cc:23:-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@52"file:///Volumes/DataHD/Projects/unzip2mem/mem_map.cc0000000000000000^22#9#22#9#733#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#28#149#28#3735#0#22"Value Conversion Issue2(3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#28#149#29#3735#0#3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#4#149#10#3711#0#-0#0#1#-19%DVTDocumentLocation4@52"file:///Volumes/DataHD/Projects/unzip2mem/mem_map.cc0000000000000000^2736"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o [1mmem_map.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.dia -c /Volumes/DataHD/Projects/unzip2mem/mem_map.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o36"80944727-91D8-4F94-BB56-3D8FA5320603-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o /Volumes/DataHD/Projects/unzip2mem/os_linux.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.988364
-e430328065.221851
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o
-x/Volumes/DataHD/Projects/unzip2mem/os_linux.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/os_linux.cc
-d/Volumes/DataHD/Projects/unzip2mem/os.h
-d/Volumes/DataHD/Projects/unzip2mem/fd_file.h
-d/Volumes/DataHD/Projects/unzip2mem/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-d/Volumes/DataHD/Projects/unzip2mem/UniquePtr.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Volumes/DataHD/Projects/unzip2mem/os_linux.cc173"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o [1mos_linux.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler191cfd0049a6b941^a9dc380149a6b941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Volumes/DataHD/Projects/unzip2mem/os_linux.cc0000000000000000^2742"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o [1mos_linux.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.dia -c /Volumes/DataHD/Projects/unzip2mem/os_linux.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o36"7E786002-F265-4017-9FE8-409A8D2664F8-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o /Volumes/DataHD/Projects/unzip2mem/stringpiece.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.988649
-e430328065.340388
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o
-x/Volumes/DataHD/Projects/unzip2mem/stringpiece.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/stringpiece.cc
-d/Volumes/DataHD/Projects/unzip2mem/stringpiece.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/DataHD/Projects/unzip2mem/stringpiece.cc179"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o [1mstringpiece.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler5930fd0049a6b941^dd23570149a6b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Volumes/DataHD/Projects/unzip2mem/stringpiece.cc0000000000000000^2760"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o [1mstringpiece.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.dia -c /Volumes/DataHD/Projects/unzip2mem/stringpiece.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o36"99D59F4D-DE9E-4818-B435-C2D54BAF42BC-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CCompileC build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430328064.987771
-e430328065.581929
-r1
-xCompileC
-xbuild/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o
-x/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc
-d/Volumes/DataHD/Projects/unzip2mem/zip_archive.h
-d/Volumes/DataHD/Projects/unzip2mem/stringpiece.h
-d/Volumes/DataHD/Projects/unzip2mem/random_access_file.h
-d/Volumes/DataHD/Projects/unzip2mem/globals.h
-d/Volumes/DataHD/Projects/unzip2mem/mem_map.h
-d/Volumes/DataHD/Projects/unzip2mem/os.h
-d/Volumes/DataHD/Projects/unzip2mem/safe_map.h
-d/Volumes/DataHD/Projects/unzip2mem/UniquePtr.h
-d/Volumes/DataHD/Projects/unzip2mem/macros.h
-d/Volumes/DataHD/Projects/unzip2mem/fd_file.h
-d/Volumes/DataHD/Projects/unzip2mem/utils.h
-d/Volumes/DataHD/Projects/unzip2mem/stringprintf.h
-d/Volumes/DataHD/Projects/unzip2mem/ScopedFd.h
-oIn file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:28:
-o[1m/Volumes/DataHD/Projects/unzip2mem/utils.h:150:29: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32][0m
-o    result->append(&buf[0], n);
-o[0;1;32m    ~~~~~~                  ^
-o[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:396:19: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer
-o      precision: 'off64_t' (aka 'unsigned long long') to 'size_t' (aka 'unsigned long')
-o      [-Wshorten-64-to-32][0m
-o    read_amount = file_length;
-o[0;1;32m                ~ ^~~~~~~~~~~
-o[0m2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc179"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o [1mzip_archive.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler17f2fc0049a6b941^b1f9940149a6b941^-718"In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:28:[1m/Volumes/DataHD/Projects/unzip2mem/utils.h:150:29: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long') [-Wshorten-64-to-32][0m    result->append(&buf[0], n);[0;1;32m    ~~~~~~                  ^[0m[1m/Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:396:19: [0m[0;1;35mwarning: [0m[1mimplicit conversion loses integer      precision: 'off64_t' (aka 'unsigned long long') to 'size_t' (aka 'unsigned long')      [-Wshorten-64-to-32][0m    read_amount = file_length;[0;1;32m                ~ ^~~~~~~~~~~[0m2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@109"Implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'size_type' (aka 'unsigned long')-430328065#18446744073709551615#0#1(2@75"In file included from /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc:28:-430328065#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^27#9#27#9#804#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#28#149#28#3735#0#22"Value Conversion Issue2(3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#28#149#29#3735#0#3@49"file:///Volumes/DataHD/Projects/unzip2mem/utils.h0000000000000000^149#4#149#10#3711#0#-2@115"Implicit conversion loses integer precision: 'off64_t' (aka 'unsigned long long') to 'size_t' (aka 'unsigned long')-430328065#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^395#18#395#18#12357#0#22"Value Conversion Issue2(3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^395#18#395#29#12357#0#3@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^395#16#395#17#12355#0#-0#0#1#-19%DVTDocumentLocation4@56"file:///Volumes/DataHD/Projects/unzip2mem/zip_archive.cc0000000000000000^2760"[1mCompileC[0m build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o [1mzip_archive.cc[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/DataHD/Projects/unzip2mem    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=102 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu++11 -stdlib=libc++ -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-generated-files.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-own-target-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-all-target-headers.hmap -iquote /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/unzip2mem-project-headers.hmap -I/Volumes/DataHD/Projects/unzip2mem/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Iinclude -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources/i386 -I/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/DerivedSources -F/Volumes/DataHD/Projects/unzip2mem/build/Release -MMD -MT dependencies -MF /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.d --serialize-diagnostics /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.dia -c /Volumes/DataHD/Projects/unzip2mem/zip_archive.cc -o /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o36"CA0039AC-E2AF-4E72-BCBE-C8AFACE8DC74-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
-CGenerateDSYMFile /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem.dSYM /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-r0
-
-CLd /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem normal i386
-s430328065.582601
-e430328065.629698
-r0
-xLd
-x/Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem
-xnormal
-xi386
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/unzip2mem.LinkFileList
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/mem_map.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/fd_file.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/zip_archive.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/main.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/os_linux.o
-d/Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/stringpiece.o
-d/Volumes/DataHD/Projects/unzip2mem/build/Release/libcorkscrew.a
-d/Volumes/DataHD/Projects/unzip2mem/build/Release/libcutils.a
-d/Volumes/DataHD/Projects/unzip2mem/build/Release/liblog.a
-d/Volumes/DataHD/Projects/unzip2mem/build/Release/libgccdemangle.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-oUndefined symbols for architecture i386:
-o  "art::StringPrintf(char const*, ...)", referenced from:
-o      art::CheckMapRequest(unsigned char*, unsigned long) in mem_map.o
-old: symbol(s) not found for architecture i386
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Link /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem46"[1mLd[0m build/Release/unzip2mem normal i386e030950149a6b941^8b34a10149a6b941^-296"Undefined symbols for architecture i386:  "art::StringPrintf(char const*, ...)", referenced from:      art::CheckMapRequest(unsigned char*, unsigned long) in mem_map.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@55""art::StringPrintf(char const*, ...)", referenced from:-430328065#41#58#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@64"Art::CheckMapRequest(unsigned char*, unsigned long) in mem_map.o-430328065#99#71#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-430328065#170#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-430328065#216#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--899"[1mLd[0m build/Release/unzip2mem normal i386    cd /Volumes/DataHD/Projects/unzip2mem    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/DataHD/Projects/unzip2mem/build/Release -F/Volumes/DataHD/Projects/unzip2mem/build/Release -filelist /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/unzip2mem.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -lcorkscrew -lcutils -llog -lgccdemangle -lz -Xlinker -dependency_info -Xlinker /Volumes/DataHD/Projects/unzip2mem/build/unzip2mem.build/Release/unzip2mem.build/Objects-normal/i386/unzip2mem_dependency_info.dat -o /Volumes/DataHD/Projects/unzip2mem/build/Release/unzip2mem36"4502704C-432F-447F-BB51-89FAEE921EAC-
-bD44AAEFF-9964-4FE7-99FF-CA68B0CD7A52
-
