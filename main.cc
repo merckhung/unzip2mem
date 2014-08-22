@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
 #ifdef __APPLE__
   std::string zip_filename("/Users/merck/Projects/unzip2mem/files/Loop.jar");
 #else
-	std::string zip_filename("/home/merck/Projects/unzip2mem/files/Loop.jar");
+	std::string zip_filename("files/Loop.jar");
 #endif
   char image_classes_filename[] = "classes.dex";
 
@@ -26,4 +26,3 @@ int main(int argc, char** argv) {
   std::cout << "Success\n";
   return 0;
 }
-
