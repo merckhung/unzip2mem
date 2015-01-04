@@ -43,6 +43,8 @@ class ZipEntry {
  public:
   bool ExtractToFile(File& file);
   bool ExtractToMemory(uint8_t* begin, size_t size);
+  size_t DeflateToMemory(uint8_t* dst, size_t dst_sz,
+                         uint8_t* src, size_t src_sz);
   MemMap* ExtractToMemMap(const char* entry_filename);
 
   uint32_t GetUncompressedLength();

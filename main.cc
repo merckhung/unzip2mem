@@ -73,7 +73,8 @@ int main(int argc, char** argv) {
 	std::string zip_filename("files/Loop.jar");
 #endif
   char image_classes_filename[] = "classes.dex";
-  char buf[ 1024 ];
+  uint8_t buf[1024];
+  uint8_t dst[1024];
 
   // Open a zip file
   UniquePtr<art::ZipArchive> zip_archive(art::ZipArchive::Open(zip_filename));
@@ -98,5 +99,10 @@ int main(int argc, char** argv) {
   // Dump data
   DumpData(reinterpret_cast<uint32_t *>(buf), sizeof(buf), 0);
   std::cout << "Success\n";
+
+  // Compress data
+  int comp_sz = zip_entry->DeflateToMemory(dst, sizeof(dst), buf, sizeof(buf));
+  DumpData(reinterpret_cast<uint32_t *>(dst), comp_sz, 0);
+
   return 0;
 }

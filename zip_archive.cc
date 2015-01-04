@@ -248,6 +248,78 @@ static bool InflateToMemory(uint8_t* begin, size_t size,
   return true;
 }
 
+class ZXStream {
+ public:
+  ZXStream(byte* write_buf, size_t write_buf_size) {
+    // Initialize the zlib stream struct.
+    memset(&zstream_, 0, sizeof(zstream_));
+    zstream_.zalloc = Z_NULL;
+    zstream_.zfree = Z_NULL;
+    zstream_.opaque = Z_NULL;
+    zstream_.next_in = NULL;
+    zstream_.avail_in = 0;
+    zstream_.next_out = reinterpret_cast<Bytef*>(write_buf);
+    zstream_.avail_out = write_buf_size;
+    zstream_.data_type = Z_UNKNOWN;
+  }
+
+  z_stream& Get() {
+    return zstream_;
+  }
+
+  ~ZXStream() {
+    deflateEnd(&zstream_);
+  }
+ private:
+  z_stream zstream_;
+};
+
+//
+// Compress a piece of data from a localtion to another location in memory
+//
+size_t ZipEntry::DeflateToMemory(uint8_t* dst, size_t dst_sz,
+                                 uint8_t* src, size_t src_sz) {
+  UniquePtr<ZXStream> zstream(new ZXStream(dst, dst_sz));
+
+  // Use the undocumented "negative window bits" feature to tell zlib
+  // that there's no zlib header waiting for it.
+  int zerr = deflateInit2(
+              &zstream->Get(),
+              Z_DEFAULT_COMPRESSION,
+              Z_DEFLATED,
+              -MAX_WBITS,
+              MAX_MEM_LEVEL,
+              Z_DEFAULT_STRATEGY);
+  if (zerr != Z_OK) {
+    if (zerr == Z_VERSION_ERROR) {
+      LOG(ERROR) << "Installed zlib is not compatible with linked version (" << ZLIB_VERSION << ")";
+    } else {
+      LOG(WARNING) << "Call to deflateInit2 failed (zerr=" << zerr << ")";
+    }
+    return zerr;
+  }
+
+  zstream->Get().next_in = src;
+  zstream->Get().avail_in = src_sz;
+
+  // compress the data
+  zerr = deflate(&zstream->Get(), Z_FINISH);
+  if (zerr != Z_OK && zerr != Z_STREAM_END) {
+    LOG(WARNING) << "Zip: deflate zerr=" << zerr
+                 << " (next_in=" << zstream->Get().next_in
+                 << " avail_in=" << zstream->Get().avail_in
+                 << " next_out=" << zstream->Get().next_out
+                 << " avail_out=" << zstream->Get().avail_out
+                 << ")";
+    return zerr;
+  }
+
+  size_t deflated_sz = zstream->Get().next_out - dst;
+  LOG(WARNING) << "Zip deflated size=" << deflated_sz << "\n";
+
+  return deflated_sz;
+}
+
 bool ZipEntry::ExtractToFile(File& file) {
   uint32_t length = GetUncompressedLength();
   int result = TEMP_FAILURE_RETRY(ftruncate(file.Fd(), length));
